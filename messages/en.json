@@ -8,8 +8,8 @@
     "orderWhatsApp": "Order on WhatsApp"
   },
   "hero": {
-    "title": "Cali's Favorite Treats, Made Fresh in San José",
-    "subtitle": "Real cholados, homemade Colombian-fruit ice cream and fresh-cut fruit, every day from noon to 10 pm.",
+    "title": "Cholados, ice cream & fresh fruit in San José",
+    "subtitle": "Homemade ice cream, strawberries & cream, obleas and more. Open every day noon to 10 pm.",
     "tagline": "Un capricho refrescante a tu antojo",
     "cta": "View Menu"
   },
@@ -22,15 +22,15 @@
   "about": {
     "title": "Our Story",
     "subtitle": "From the streets of Cali to Tully Road",
-    "content": "Rancholados was born from a craving that crossed borders: the street-corner cholado of Cali, Colombia — shaved ice, fresh fruit and a generous drizzle of condensed milk. We're a Colombian family that came to San José with our home recipes and one simple mission: that no one in our community should have to miss the flavors of home, and that everyone who hasn't tried them falls in love at first bite.",
-    "content2": "That's why everything here is made by hand and with patience: homemade guanábana, lulo and passion fruit ice creams, obleas filled with arequipe, strawberries and cream, and the freshest fruit in the neighborhood, cut to order. Even our name is a play on words: Rancho + cholados, because this little ranch is ours and here the cholado is king.",
-    "cta": "Come get your refreshing treat — we're waiting for you every day on Tully Road.",
+    "content": "We're a Colombian family in San José. We missed the cholados from the street corners of Cali, so we started making them ourselves. We brought our family recipes and found the freshest fruit we could.",
+    "content2": "Everything is made by hand: guanábana, lulo and passion fruit ice cream, obleas with arequipe, strawberries and cream. The name is a play on words: Rancho + cholados. This is our little ranch and here the cholado is king.",
+    "cta": "We're on Tully Road, every day noon to 10.",
     "value1Title": "Handmade",
-    "value1Desc": "Every ice cream, every cholado, every oblea — made with patience and our family recipes.",
+    "value1Desc": "Everything is made to order with our family recipes.",
     "value2Title": "Fresh Fruit",
-    "value2Desc": "The freshest fruit in the neighborhood, cut to order. No preservatives, no shortcuts.",
+    "value2Desc": "Cut to order. No preservatives.",
     "value3Title": "Colombian Flavor",
-    "value3Desc": "Guanábana, lulo, passion fruit, arequipe — the flavors of Colombia, right here in San José."
+    "value3Desc": "Guanábana, lulo, passion fruit, arequipe and more."
   },
   "contact": {
     "title": "Visit Us",
@@ -57,12 +57,12 @@
     "scheduleTime": "12:00 PM – 10:00 PM"
   },
   "featured": {
-    "title": "Fan Favorites",
-    "subtitle": "The most craved treats"
+    "title": "Most Popular",
+    "subtitle": "What everyone's ordering"
   },
   "location": {
-    "title": "Find Us",
-    "subtitle": "In the heart of San José"
+    "title": "Where We Are",
+    "subtitle": "Tully Road, San José"
   },
   "locale": {
     "switch": "Español"

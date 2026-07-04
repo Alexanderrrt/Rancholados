@@ -24,8 +24,8 @@ export async function generateMetadata({
       ? "Rancholados | Frutería y Heladería Colombiana en San José"
       : "Rancholados | Colombian Fruit & Ice Cream Shop in San José",
     description: isEs
-      ? "Cholados, helados caseros, fresas con crema, obleas y más. Sabores auténticos de Cali en San José, CA. Ordena para recoger."
-      : "Cholados, homemade ice cream, strawberries & cream, obleas and more. Authentic Cali flavors in San José, CA. Order for pickup.",
+      ? "Cholados, helados caseros, fresas con crema, obleas y más en San José, CA. Abiertos todos los días de 12 a 10 pm."
+      : "Cholados, homemade ice cream, strawberries & cream, obleas and more in San José, CA. Open daily noon to 10 pm.",
     icons: {
       icon: "/logo.jpg",
       apple: "/logo.jpg",

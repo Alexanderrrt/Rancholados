@@ -8,8 +8,8 @@
     "orderWhatsApp": "Pedir por WhatsApp"
   },
   "hero": {
-    "title": "¡El sabor de Cali llegó a San José!",
-    "subtitle": "Cholados de verdad, helados caseros con frutas colombianas y fruta fresca picada todos los días de 12 a 10.",
+    "title": "Cholados, helados y fruta fresca en San José",
+    "subtitle": "Helados caseros, fresas con crema, obleas y más. Abiertos todos los días de 12 a 10 pm.",
     "tagline": "Un capricho refrescante a tu antojo",
     "cta": "Ver Menú"
   },
@@ -22,15 +22,15 @@
   "about": {
     "title": "Nuestra Historia",
     "subtitle": "De las esquinas de Cali a Tully Road",
-    "content": "Rancholados nació de un antojo que cruzó fronteras: el del cholado de las esquinas de Cali, con su hielo raspado, su fruta fresca y su chorrito generoso de lechera. Somos una familia colombiana que llegó a San José con las recetas de casa y una misión sencilla: que nadie de nuestra comunidad tenga que extrañar los sabores de su tierra, y que quien no los conozca se enamore al primer bocado.",
-    "content2": "Por eso todo aquí se hace a mano y con paciencia: helados caseros de guanábana, lulo y maracuyá, obleas con arequipe, fresas con crema y la fruta más fresca del barrio, picada al momento. Hasta el nombre es un juego: Rancho + cholados, porque este es nuestro ranchito y aquí el cholado es el rey.",
-    "cta": "Ven por tu capricho refrescante — te esperamos todos los días en Tully Road.",
+    "content": "Somos una familia colombiana en San José. Extrañábamos el cholado de las esquinas de Cali, así que decidimos hacerlo nosotros. Empezamos con las recetas de casa y la fruta más fresca que encontramos.",
+    "content2": "Todo se hace a mano: helados de guanábana, lulo, maracuyá, obleas con arequipe, fresas con crema. El nombre es un juego de palabras: Rancho + cholados. Este es nuestro ranchito y aquí el cholado es el rey.",
+    "cta": "Estamos en Tully Road, todos los días de 12 a 10.",
     "value1Title": "Hecho a Mano",
-    "value1Desc": "Cada helado, cada cholado, cada oblea — preparados con paciencia y las recetas de casa.",
+    "value1Desc": "Todo se prepara al momento con las recetas de la casa.",
     "value2Title": "Fruta Fresca",
-    "value2Desc": "La fruta más fresca del barrio, picada al momento. Sin conservantes, sin atajos.",
+    "value2Desc": "Picada al momento. Sin conservantes.",
     "value3Title": "Sabor Colombiano",
-    "value3Desc": "Guanábana, lulo, maracuyá, arequipe — los sabores de Colombia, aquí en San José."
+    "value3Desc": "Guanábana, lulo, maracuyá, arequipe y más."
   },
   "contact": {
     "title": "Visítanos",
@@ -57,12 +57,12 @@
     "scheduleTime": "12:00 PM – 10:00 PM"
   },
   "featured": {
-    "title": "Los Favoritos",
-    "subtitle": "Lo que más se antoja"
+    "title": "Los Más Pedidos",
+    "subtitle": "Lo que más se lleva la gente"
   },
   "location": {
-    "title": "Encuéntranos",
-    "subtitle": "En el corazón de San José"
+    "title": "¿Dónde Estamos?",
+    "subtitle": "Tully Road, San José"
   },
   "locale": {
     "switch": "English"

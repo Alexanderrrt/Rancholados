@@ -117,7 +117,7 @@ export default function ContactPage() {
             "@type": "IceCreamShop",
             name: "Rancholados",
             description:
-              "Colombian frutería y heladería serving homemade ice cream, cholados, and fresh fruit in San José, CA",
+              "Colombian fruit and ice cream shop in San José, CA. Cholados, homemade ice cream, fresas con crema, obleas and fresh fruit.",
             address: {
               "@type": "PostalAddress",
               streetAddress: "1075 Tully Rd, Suite 24",
