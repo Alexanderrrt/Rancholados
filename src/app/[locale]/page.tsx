@@ -70,6 +70,12 @@ export default function HomePage() {
                   className="h-8 md:h-10 w-auto"
                 />
               </div>
+              {/* Cali badge */}
+              <div className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 animate-float bg-[#FCD116] rounded-full px-3 py-1.5 shadow-lg" style={{ animationDelay: '1.5s' }}>
+                <span className="font-heading text-xs md:text-sm font-bold text-[#003893]">
+                  🇨🇴 De Cali
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -164,47 +170,54 @@ export default function HomePage() {
             </div>
           </ScrollReveal>
           <ScrollReveal animation="fade-right">
-            <div className="bg-blanco rounded-xl p-8 shadow-[0_4px_20px_rgba(61,35,20,0.08)] card-interactive">
-              <h3 className="font-heading text-2xl font-bold text-chocolate mb-4">
-                Rancholados
-              </h3>
-              <div className="space-y-3 font-body text-chocolate/70">
-                <p className="flex items-start gap-3">
-                  <span className="text-xl">📍</span>
-                  <span>
-                    {t("contact.address")}
-                    <br />
-                    {t("contact.city")}
-                  </span>
-                </p>
-                <p className="flex items-center gap-3">
-                  <span className="text-xl">📞</span>
-                  <a href="tel:+14087975538" className="hover:text-rosa-fuerte transition-colors">
-                    {t("contact.phone")}
-                  </a>
-                </p>
-                <p className="flex items-center gap-3">
-                  <span className="text-xl">🕐</span>
-                  <span>{t("contact.hours")}</span>
-                </p>
+            <div className="bg-blanco rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(61,35,20,0.08)] card-interactive">
+              <div className="flex h-1">
+                <div className="flex-[2] bg-[#FCD116]" />
+                <div className="flex-1 bg-[#003893]" />
+                <div className="flex-1 bg-[#CE1126]" />
               </div>
-              <div className="flex flex-col sm:flex-row gap-3 mt-6">
-                <a
-                  href="https://maps.google.com/?q=1075+Tully+Rd+Suite+24+San+Jose+CA+95122"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-rosa-fuerte text-white font-body font-bold px-6 py-2.5 rounded-3xl text-sm hover:bg-rosa-hover hover:scale-105 active:scale-95 transition-all duration-200 text-center"
-                >
-                  {t("contact.getDirections")}
-                </a>
-                <a
-                  href="https://www.instagram.com/rancholados/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-rosa-claro text-chocolate font-body font-bold px-6 py-2.5 rounded-3xl text-sm hover:bg-azul-bebe hover:scale-105 active:scale-95 transition-all duration-200 text-center"
-                >
-                  📸 Instagram
-                </a>
+              <div className="p-8">
+                <h3 className="font-heading text-2xl font-bold text-chocolate mb-4">
+                  Rancholados 🇨🇴
+                </h3>
+                <div className="space-y-3 font-body text-chocolate/70">
+                  <p className="flex items-start gap-3">
+                    <span className="text-xl">📍</span>
+                    <span>
+                      {t("contact.address")}
+                      <br />
+                      {t("contact.city")}
+                    </span>
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-xl">📞</span>
+                    <a href="tel:+14087975538" className="hover:text-rosa-fuerte transition-colors">
+                      {t("contact.phone")}
+                    </a>
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-xl">🕐</span>
+                    <span>{t("contact.hours")}</span>
+                  </p>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-3 mt-6">
+                  <a
+                    href="https://maps.google.com/?q=1075+Tully+Rd+Suite+24+San+Jose+CA+95122"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-rosa-fuerte text-white font-body font-bold px-6 py-2.5 rounded-3xl text-sm hover:bg-rosa-hover hover:scale-105 active:scale-95 transition-all duration-200 text-center"
+                  >
+                    {t("contact.getDirections")}
+                  </a>
+                  <a
+                    href="https://www.instagram.com/rancholados/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-rosa-claro text-chocolate font-body font-bold px-6 py-2.5 rounded-3xl text-sm hover:bg-azul-bebe hover:scale-105 active:scale-95 transition-all duration-200 text-center"
+                  >
+                    📸 Instagram
+                  </a>
+                </div>
               </div>
             </div>
           </ScrollReveal>

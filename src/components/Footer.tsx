@@ -89,7 +89,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-crema/10 mt-8 pt-6 text-center text-xs text-crema/40">
+        {/* Colombian flag stripe */}
+        <div className="flex h-[3px] mt-8 rounded-full overflow-hidden">
+          <div className="flex-[2] bg-[#FCD116]" />
+          <div className="flex-1 bg-[#003893]" />
+          <div className="flex-1 bg-[#CE1126]" />
+        </div>
+
+        <div className="mt-6 pt-2 text-center text-xs text-crema/40">
+          <p className="text-crema/60 mb-1">
+            {t("madeWith")} ❤️ 🇨🇴
+          </p>
           <p>
             &copy; {currentYear} Rancholados. {t("rights")}
           </p>

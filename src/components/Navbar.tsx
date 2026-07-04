@@ -20,6 +20,12 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-blanco/95 backdrop-blur-sm shadow-[0_2px_16px_rgba(61,35,20,0.06)]">
+      {/* Colombian flag stripe */}
+      <div className="flex h-[3px]">
+        <div className="flex-[2] bg-[#FCD116]" />
+        <div className="flex-1 bg-[#003893]" />
+        <div className="flex-1 bg-[#CE1126]" />
+      </div>
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">

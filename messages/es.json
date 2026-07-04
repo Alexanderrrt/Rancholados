@@ -49,8 +49,8 @@
   },
   "footer": {
     "tagline": "Un capricho refrescante a tu antojo",
+    "madeWith": "Hecho con amor colombiano",
     "rights": "Todos los derechos reservados.",
-    "madeWith": "Hecho con",
     "links": "Enlaces",
     "hours": "Horario",
     "schedule": "Lunes – Domingo",
@@ -58,11 +58,11 @@
   },
   "featured": {
     "title": "Los Más Pedidos",
-    "subtitle": "Lo que más se lleva la gente"
+    "subtitle": "Directo de Cali a tu mesa 🇨🇴"
   },
   "location": {
     "title": "¿Dónde Estamos?",
-    "subtitle": "Tully Road, San José"
+    "subtitle": "De Cali pa' San José — Tully Road"
   },
   "locale": {
     "switch": "English"
