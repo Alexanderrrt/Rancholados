@@ -68,7 +68,7 @@ export default function LocationPopup() {
             className="h-14 w-14 rounded-full shadow-md"
           />
           <Image
-            src="/logohero.png"
+            src="/LogoHero.png"
             alt="Rancholados - Frutería y Heladería"
             width={200}
             height={56}

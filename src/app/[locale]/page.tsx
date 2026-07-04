@@ -63,7 +63,7 @@ export default function HomePage() {
               />
               <div className="absolute -top-4 -left-4 md:-top-6 md:-left-6 animate-float bg-blanco/90 backdrop-blur-sm rounded-2xl px-3 py-2 shadow-lg">
                 <Image
-                  src="/logohero.png"
+                  src="/LogoHero.png"
                   alt="Rancholados logo"
                   width={140}
                   height={39}

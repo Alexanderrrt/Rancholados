@@ -32,7 +32,7 @@ export default function Navbar() {
             priority
           />
           <Image
-            src="/logohero.png"
+            src="/LogoHero.png"
             alt="Rancholados - Frutería y Heladería"
             width={150}
             height={42}

@@ -28,7 +28,7 @@ export default function AboutPage() {
           <ScrollReveal animation="fade-left">
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl bg-gradient-to-br from-rosa-claro to-azul-bebe flex items-center justify-center p-8">
               <Image
-                src="/logohero.png"
+                src="/LogoHero.png"
                 alt="Rancholados - Frutería y Heladería"
                 width={400}
                 height={112}

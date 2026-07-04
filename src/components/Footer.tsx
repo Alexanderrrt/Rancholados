@@ -20,7 +20,7 @@ export default function Footer() {
                 className="h-11 w-11 rounded-full"
               />
               <Image
-                src="/logohero.png"
+                src="/LogoHero.png"
                 alt="Rancholados - Frutería y Heladería"
                 width={180}
                 height={50}
