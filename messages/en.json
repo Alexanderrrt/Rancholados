@@ -49,8 +49,8 @@
   },
   "footer": {
     "tagline": "A refreshing treat, just the way you crave it",
+    "madeWith": "Made with Colombian love",
     "rights": "All rights reserved.",
-    "madeWith": "Made with",
     "links": "Links",
     "hours": "Hours",
     "schedule": "Monday – Sunday",
@@ -58,11 +58,11 @@
   },
   "featured": {
     "title": "Most Popular",
-    "subtitle": "What everyone's ordering"
+    "subtitle": "Straight from Cali to your table 🇨🇴"
   },
   "location": {
     "title": "Where We Are",
-    "subtitle": "Tully Road, San José"
+    "subtitle": "From Cali to San José — Tully Road"
   },
   "locale": {
     "switch": "Español"
