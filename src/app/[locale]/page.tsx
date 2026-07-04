@@ -53,16 +53,25 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Hero logo */}
+          {/* Hero image + logo */}
           <div className="flex-1 max-w-md relative flex items-center justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
+            <div className="relative w-72 h-96 md:w-80 md:h-[28rem] mx-auto">
               <Image
-                src="/logo.jpg"
-                alt="Rancholados - Frutería y Heladería"
+                src="/images/brand/oreo-shake-promo.jpg"
+                alt="Rancholados"
                 fill
-                className="object-contain drop-shadow-2xl rounded-full"
+                className="object-contain drop-shadow-2xl"
                 priority
               />
+              <div className="absolute -top-6 -left-6 w-24 h-24 md:w-28 md:h-28">
+                <Image
+                  src="/logo.jpg"
+                  alt="Rancholados logo"
+                  width={112}
+                  height={112}
+                  className="rounded-full drop-shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
