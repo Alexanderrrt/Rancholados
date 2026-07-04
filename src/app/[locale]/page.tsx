@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import DripDivider from "@/components/DripDivider";
@@ -9,6 +9,7 @@ import { categories, featuredItemIds, getAllItems } from "@/data/menu";
 
 export default function HomePage() {
   const t = useTranslations();
+  const locale = useLocale();
   const featuredItems = getAllItems().filter((item) =>
     featuredItemIds.includes(item.id)
   );
@@ -213,29 +214,32 @@ export default function HomePage() {
       {/* Category Quick Scroll */}
       <section className="bg-azul-bebe/30 py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-2">
-            {categories.map((cat, i) => (
-              <ScrollReveal key={cat.id} animation="zoom-in" delay={i * 80}>
-                <Link
-                  href={`/menu#${cat.slug}`}
-                  className="flex-shrink-0 bg-blanco rounded-2xl px-6 py-4 shadow-sm text-center min-w-[140px] pill-interactive"
-                >
-                  <span className="text-3xl block mb-1">
-                    {cat.slug === "cholados" && "🍧"}
-                    {cat.slug === "helados" && "🍦"}
-                    {cat.slug === "fresas" && "🍓"}
-                    {cat.slug === "obleas" && "🧇"}
-                    {cat.slug === "ensaladas" && "🥗"}
-                    {cat.slug === "malteadas" && "🥤"}
-                    {cat.slug === "jugos" && "🧃"}
-                  </span>
-                  <span className="font-body font-semibold text-sm text-chocolate">
-                    {cat.nameEs}
-                  </span>
-                </Link>
-              </ScrollReveal>
-            ))}
-          </div>
+          <ScrollReveal animation="fade-up">
+            <div className="flex flex-wrap justify-center gap-4">
+              {categories.map((cat) => {
+                const emoji =
+                  cat.slug === "cholados" ? "🍧" :
+                  cat.slug === "helados" ? "🍦" :
+                  cat.slug === "fresas" ? "🍓" :
+                  cat.slug === "obleas" ? "🧇" :
+                  cat.slug === "ensaladas" ? "🥗" :
+                  cat.slug === "malteadas" ? "🥤" :
+                  cat.slug === "jugos" ? "🧃" : "🍨";
+                return (
+                  <Link
+                    key={cat.id}
+                    href={`/menu#${cat.slug}`}
+                    className="bg-blanco rounded-2xl px-6 py-4 shadow-sm text-center min-w-[140px] pill-interactive"
+                  >
+                    <span className="text-3xl block mb-1">{emoji}</span>
+                    <span className="font-body font-semibold text-sm text-chocolate">
+                      {locale === "es" ? cat.nameEs : cat.nameEn}
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </ScrollReveal>
         </div>
       </section>
     </>
