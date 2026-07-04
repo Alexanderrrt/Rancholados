@@ -25,7 +25,7 @@ export async function generateMetadata({
       ? "Cholados, helados caseros, fresas con crema, obleas y más. Sabores auténticos de Cali en San José, CA. Ordena para recoger."
       : "Cholados, homemade ice cream, strawberries & cream, obleas and more. Authentic Cali flavors in San José, CA. Order for pickup.",
     openGraph: {
-      images: ["/images/brand/oreo-shake-promo.jpg"],
+      images: ["/logo.jpg"],
     },
   };
 }

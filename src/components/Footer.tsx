@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -10,9 +11,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-2xl font-bold text-rosa-fuerte mb-2">
-              Rancholados
-            </h3>
+            <div className="flex items-center gap-3 mb-2">
+              <Image
+                src="/logo.jpg"
+                alt="Rancholados"
+                width={48}
+                height={48}
+                className="rounded-full"
+              />
+              <h3 className="font-heading text-2xl font-bold text-rosa-fuerte">
+                Rancholados
+              </h3>
+            </div>
             <p className="font-body text-sm italic text-crema/60">
               &ldquo;{t("tagline")}&rdquo;
             </p>

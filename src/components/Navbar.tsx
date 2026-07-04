@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { Link, usePathname } from "@/i18n/routing";
 import LocaleToggle from "./LocaleToggle";
 
@@ -22,11 +23,15 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/logo.jpg"
+            alt="Rancholados"
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
           <span className="font-heading text-2xl font-bold text-rosa-fuerte">
             Rancholados
-          </span>
-          <span className="hidden sm:inline text-xs text-chocolate/50 font-body">
-            Frutería y Heladería
           </span>
         </Link>
 
