@@ -4,6 +4,7 @@ import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import LocationPopup from "@/components/LocationPopup";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -60,6 +61,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppFloat />
+          <LocationPopup />
         </NextIntlClientProvider>
       </body>
     </html>

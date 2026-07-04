@@ -207,3 +207,40 @@ h1, h2, h3, h4, h5, h6 {
 .stagger-children > *:nth-child(6) { transition-delay: 400ms; }
 .stagger-children > *:nth-child(7) { transition-delay: 480ms; }
 .stagger-children > *:nth-child(8) { transition-delay: 560ms; }
+
+/* Popup animations */
+@keyframes popup-overlay-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes popup-overlay-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes popup-card-in {
+  from { opacity: 0; transform: scale(0.8) translateY(30px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes popup-card-out {
+  from { opacity: 1; transform: scale(1) translateY(0); }
+  to { opacity: 0; transform: scale(0.8) translateY(30px); }
+}
+
+.popup-overlay-in {
+  animation: popup-overlay-in 0.3s ease-out forwards;
+}
+
+.popup-overlay-out {
+  animation: popup-overlay-out 0.4s ease-in forwards;
+}
+
+.popup-card-in {
+  animation: popup-card-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.popup-card-out {
+  animation: popup-card-out 0.35s ease-in forwards;
+}
