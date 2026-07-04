@@ -61,13 +61,13 @@ export default function HomePage() {
                 className="object-contain drop-shadow-2xl"
                 priority
               />
-              <div className="absolute -top-6 -left-6 w-24 h-24 md:w-28 md:h-28 animate-float">
+              <div className="absolute -top-4 -left-4 md:-top-6 md:-left-6 animate-float bg-blanco/90 backdrop-blur-sm rounded-2xl px-3 py-2 shadow-lg">
                 <Image
-                  src="/logo.jpg"
+                  src="/logohero.png"
                   alt="Rancholados logo"
-                  width={112}
-                  height={112}
-                  className="rounded-full drop-shadow-lg"
+                  width={140}
+                  height={39}
+                  className="h-8 md:h-10 w-auto"
                 />
               </div>
             </div>

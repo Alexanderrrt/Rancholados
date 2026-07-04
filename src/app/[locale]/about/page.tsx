@@ -26,13 +26,13 @@ export default function AboutPage() {
       <section className="max-w-4xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <ScrollReveal animation="fade-left">
-            <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl bg-gradient-to-br from-rosa-claro to-azul-bebe flex items-center justify-center">
+            <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl bg-gradient-to-br from-rosa-claro to-azul-bebe flex items-center justify-center p-8">
               <Image
-                src="/logo.jpg"
-                alt="Rancholados"
-                width={280}
-                height={280}
-                className="rounded-full drop-shadow-xl"
+                src="/logohero.png"
+                alt="Rancholados - Frutería y Heladería"
+                width={400}
+                height={112}
+                className="w-full h-auto drop-shadow-xl"
               />
             </div>
           </ScrollReveal>

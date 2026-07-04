@@ -61,18 +61,12 @@ export default function LocationPopup() {
         {/* Top gradient banner */}
         <div className="hero-gradient py-6 px-6 text-center">
           <Image
-            src="/logo.jpg"
-            alt="Rancholados"
-            width={72}
-            height={72}
-            className="rounded-full mx-auto mb-3 drop-shadow-lg"
+            src="/logohero.png"
+            alt="Rancholados - Frutería y Heladería"
+            width={240}
+            height={67}
+            className="h-16 w-auto mx-auto mb-2 drop-shadow-lg"
           />
-          <h2 className="font-heading text-2xl font-extrabold text-chocolate">
-            Rancholados
-          </h2>
-          <p className="font-body text-sm text-chocolate/60">
-            Frutería y Heladería Colombiana
-          </p>
         </div>
 
         {/* Content */}
