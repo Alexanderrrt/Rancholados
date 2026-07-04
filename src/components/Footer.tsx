@@ -11,13 +11,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="mb-2">
+            <div className="flex items-center gap-3 mb-2 mix-blend-screen">
+              <Image
+                src="/logo.jpg"
+                alt="Rancholados"
+                width={48}
+                height={48}
+                className="h-11 w-11 rounded-full"
+              />
               <Image
                 src="/logohero.png"
                 alt="Rancholados - Frutería y Heladería"
-                width={200}
-                height={56}
-                className="h-12 w-auto mix-blend-screen"
+                width={180}
+                height={50}
+                className="h-10 w-auto"
               />
             </div>
             <p className="font-body text-sm italic text-crema/60">

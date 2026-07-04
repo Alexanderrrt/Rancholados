@@ -22,14 +22,21 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-blanco/95 backdrop-blur-sm shadow-[0_2px_16px_rgba(61,35,20,0.06)]">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/logo.jpg"
+            alt="Rancholados"
+            width={40}
+            height={40}
+            className="h-9 w-9 rounded-full"
+            priority
+          />
           <Image
             src="/logohero.png"
             alt="Rancholados - Frutería y Heladería"
-            width={180}
-            height={50}
-            className="h-10 w-auto"
-            priority
+            width={150}
+            height={42}
+            className="h-8 w-auto hidden sm:block"
           />
         </Link>
 
