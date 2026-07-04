@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "order": "Ordenar",
+    "orderWhatsApp": "Pedir por WhatsApp"
+  },
+  "hero": {
+    "title": "¡El sabor de Cali llegó a San José!",
+    "subtitle": "Cholados de verdad, helados caseros con frutas colombianas y fruta fresca picada todos los días de 12 a 10.",
+    "tagline": "Un capricho refrescante a tu antojo",
+    "cta": "Ver Menú"
+  },
+  "menu": {
+    "title": "Nuestro Menú",
+    "orderWhatsApp": "Pedir",
+    "viewFull": "Ver Menú Completo"
+  },
+  "about": {
+    "title": "Nuestra Historia",
+    "subtitle": "De las esquinas de Cali a Tully Road",
+    "content": "Rancholados nació de un antojo que cruzó fronteras: el del cholado de las esquinas de Cali, con su hielo raspado, su fruta fresca y su chorrito generoso de lechera. Somos una familia colombiana que llegó a San José con las recetas de casa y una misión sencilla: que nadie de nuestra comunidad tenga que extrañar los sabores de su tierra, y que quien no los conozca se enamore al primer bocado.",
+    "content2": "Por eso todo aquí se hace a mano y con paciencia: helados caseros de guanábana, lulo y maracuyá, obleas con arequipe, fresas con crema y la fruta más fresca del barrio, picada al momento. Hasta el nombre es un juego: Rancho + cholados, porque este es nuestro ranchito y aquí el cholado es el rey.",
+    "cta": "Ven por tu capricho refrescante — te esperamos todos los días en Tully Road."
+  },
+  "contact": {
+    "title": "Visítanos",
+    "address": "1075 Tully Rd, Suite 24",
+    "city": "San Jose, CA 95122",
+    "phone": "(408) 797-5538",
+    "hours": "Todos los días: 12:00 PM – 10:00 PM",
+    "callUs": "Llámanos",
+    "getDirections": "Cómo Llegar",
+    "followUs": "Síguenos en Instagram",
+    "orderDelivery": "Pedir por DoorDash",
+    "orderWhatsApp": "Pedir por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Un capricho refrescante a tu antojo",
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con"
+  },
+  "featured": {
+    "title": "Los Favoritos",
+    "subtitle": "Lo que más se antoja"
+  },
+  "location": {
+    "title": "Encuéntranos",
+    "subtitle": "En el corazón de San José"
+  },
+  "locale": {
+    "switch": "English"
+  }
+}

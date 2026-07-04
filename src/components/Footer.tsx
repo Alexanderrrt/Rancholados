@@ -1,0 +1,86 @@
+import { useTranslations } from "next-intl";
+
+export default function Footer() {
+  const t = useTranslations("footer");
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-chocolate text-crema/80">
+      <div className="max-w-6xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Brand */}
+          <div>
+            <h3 className="font-heading text-2xl font-bold text-rosa-fuerte mb-2">
+              Rancholados
+            </h3>
+            <p className="font-body text-sm italic text-crema/60">
+              &ldquo;{t("tagline")}&rdquo;
+            </p>
+          </div>
+
+          {/* Links */}
+          <div>
+            <h4 className="font-heading text-lg font-semibold text-blanco mb-3">
+              Links
+            </h4>
+            <div className="flex flex-col gap-2 text-sm font-body">
+              <a
+                href="https://www.instagram.com/rancholados/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-rosa-fuerte transition-colors inline-flex items-center gap-2"
+              >
+                📸 Instagram
+              </a>
+              <a
+                href="https://wa.me/14087975538"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-rosa-fuerte transition-colors inline-flex items-center gap-2"
+              >
+                💬 WhatsApp
+              </a>
+              <a
+                href="https://www.doordash.com/store/35880125"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-rosa-fuerte transition-colors inline-flex items-center gap-2"
+              >
+                🚗 DoorDash
+              </a>
+              <a
+                href="tel:+14087975538"
+                className="hover:text-rosa-fuerte transition-colors inline-flex items-center gap-2"
+              >
+                📞 (408) 797-5538
+              </a>
+            </div>
+          </div>
+
+          {/* Hours */}
+          <div>
+            <h4 className="font-heading text-lg font-semibold text-blanco mb-3">
+              Horario
+            </h4>
+            <p className="text-sm font-body">
+              Lunes – Domingo
+              <br />
+              12:00 PM – 10:00 PM
+            </p>
+            <p className="text-sm font-body mt-2">
+              1075 Tully Rd, Suite 24
+              <br />
+              San Jose, CA 95122
+            </p>
+          </div>
+        </div>
+
+        <div className="border-t border-crema/10 mt-8 pt-6 text-center text-xs text-crema/40">
+          <p>
+            &copy; {currentYear} Rancholados. {t("rights")}
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
