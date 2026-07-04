@@ -10,7 +10,7 @@ export default function WhatsAppFloat() {
       href="https://wa.me/14087975538"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:bg-[#1da851] hover:scale-110 transition-all duration-200 group"
+      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:bg-[#1da851] hover:scale-110 transition-all duration-200 group whatsapp-pulse"
       aria-label={t("order")}
     >
       <svg className="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">

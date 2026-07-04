@@ -41,9 +41,9 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`font-body font-semibold text-sm transition-colors hover:text-rosa-fuerte ${
+              className={`nav-link font-body font-semibold text-sm transition-colors hover:text-rosa-fuerte ${
                 pathname === link.href
-                  ? "text-rosa-fuerte"
+                  ? "text-rosa-fuerte nav-link-active"
                   : "text-chocolate/70"
               }`}
             >
