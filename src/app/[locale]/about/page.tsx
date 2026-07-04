@@ -63,17 +63,17 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { emoji: "🤲", title: "Hecho a Mano", desc: "Cada helado, cada cholado, cada oblea — preparados con paciencia y las recetas de casa." },
-              { emoji: "🌿", title: "Fruta Fresca", desc: "La fruta más fresca del barrio, picada al momento. Sin conservantes, sin atajos." },
-              { emoji: "❤️", title: "Sabor Colombiano", desc: "Guanábana, lulo, maracuyá, arequipe — los sabores de Colombia, aquí en San José." },
+              { emoji: "🤲", titleKey: "value1Title", descKey: "value1Desc" },
+              { emoji: "🌿", titleKey: "value2Title", descKey: "value2Desc" },
+              { emoji: "❤️", titleKey: "value3Title", descKey: "value3Desc" },
             ].map((v, i) => (
-              <ScrollReveal key={v.title} animation="flip-up" delay={i * 150}>
+              <ScrollReveal key={v.titleKey} animation="flip-up" delay={i * 150}>
                 <div className="bg-blanco rounded-2xl p-8 shadow-sm card-interactive">
                   <span className="text-4xl block mb-3">{v.emoji}</span>
                   <h3 className="font-heading text-xl font-bold text-chocolate mb-2">
-                    {v.title}
+                    {t(v.titleKey)}
                   </h3>
-                  <p className="font-body text-sm text-chocolate/60">{v.desc}</p>
+                  <p className="font-body text-sm text-chocolate/60">{t(v.descKey)}</p>
                 </div>
               </ScrollReveal>
             ))}

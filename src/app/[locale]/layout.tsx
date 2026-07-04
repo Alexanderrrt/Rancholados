@@ -19,12 +19,17 @@ export async function generateMetadata({
   const { locale } = await params;
   const isEs = locale === "es";
   return {
+    metadataBase: new URL("https://rancholados.vercel.app"),
     title: isEs
       ? "Rancholados | Frutería y Heladería Colombiana en San José"
       : "Rancholados | Colombian Fruit & Ice Cream Shop in San José",
     description: isEs
       ? "Cholados, helados caseros, fresas con crema, obleas y más. Sabores auténticos de Cali en San José, CA. Ordena para recoger."
       : "Cholados, homemade ice cream, strawberries & cream, obleas and more. Authentic Cali flavors in San José, CA. Order for pickup.",
+    icons: {
+      icon: "/logo.jpg",
+      apple: "/logo.jpg",
+    },
     openGraph: {
       images: ["/logo.jpg"],
     },

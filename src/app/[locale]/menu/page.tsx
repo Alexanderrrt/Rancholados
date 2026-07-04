@@ -26,7 +26,7 @@ export default function MenuPage() {
           {t("title")} 🍨
         </h1>
         <p className="font-body text-chocolate/60 mt-2 text-lg">
-          Un capricho refrescante a tu antojo
+          {t("subtitle")}
         </p>
 
         {/* Category pills */}

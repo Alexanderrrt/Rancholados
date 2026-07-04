@@ -85,9 +85,12 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      {mobileOpen && (
-        <div className="md:hidden bg-blanco border-t border-rosa-claro animate-fade-up">
-          <div className="px-4 py-4 flex flex-col gap-3">
+      <div
+        className={`md:hidden bg-blanco border-t border-rosa-claro overflow-hidden transition-all duration-300 ease-out ${
+          mobileOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        <div className="px-4 py-4 flex flex-col gap-3">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -116,9 +119,8 @@ export default function Navbar() {
             <div className="pt-2 border-t border-rosa-claro">
               <LocaleToggle />
             </div>
-          </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 }

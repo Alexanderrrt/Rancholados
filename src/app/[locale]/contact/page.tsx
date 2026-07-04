@@ -34,7 +34,7 @@ export default function ContactPage() {
             {/* Address */}
             <div className="bg-blanco rounded-2xl p-6 shadow-[0_4px_20px_rgba(61,35,20,0.08)]">
               <h3 className="font-heading text-lg font-bold text-chocolate mb-3 flex items-center gap-2">
-                📍 Dirección
+                📍 {t("addressLabel")}
               </h3>
               <p className="font-body text-chocolate/70">
                 {t("address")}
@@ -54,7 +54,7 @@ export default function ContactPage() {
             {/* Phone */}
             <div className="bg-blanco rounded-2xl p-6 shadow-[0_4px_20px_rgba(61,35,20,0.08)]">
               <h3 className="font-heading text-lg font-bold text-chocolate mb-3 flex items-center gap-2">
-                📞 Teléfono
+                📞 {t("phoneLabel")}
               </h3>
               <a
                 href="tel:+14087975538"
@@ -67,7 +67,7 @@ export default function ContactPage() {
             {/* Hours */}
             <div className="bg-blanco rounded-2xl p-6 shadow-[0_4px_20px_rgba(61,35,20,0.08)]">
               <h3 className="font-heading text-lg font-bold text-chocolate mb-3 flex items-center gap-2">
-                🕐 Horario
+                🕐 {t("hoursLabel")}
               </h3>
               <p className="font-body text-chocolate/70">{t("hours")}</p>
             </div>

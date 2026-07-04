@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Links */}
           <div>
             <h4 className="font-heading text-lg font-semibold text-blanco mb-3">
-              Links
+              {t("links")}
             </h4>
             <div className="flex flex-col gap-2 text-sm font-body">
               <a
@@ -70,12 +70,12 @@ export default function Footer() {
           {/* Hours */}
           <div>
             <h4 className="font-heading text-lg font-semibold text-blanco mb-3">
-              Horario
+              {t("hours")}
             </h4>
             <p className="text-sm font-body">
-              Lunes – Domingo
+              {t("schedule")}
               <br />
-              12:00 PM – 10:00 PM
+              {t("scheduleTime")}
             </p>
             <p className="text-sm font-body mt-2">
               1075 Tully Rd, Suite 24

@@ -15,6 +15,7 @@
   },
   "menu": {
     "title": "Our Menu",
+    "subtitle": "A refreshing treat, just the way you crave it",
     "orderWhatsApp": "Order",
     "viewFull": "View Full Menu"
   },
@@ -23,7 +24,13 @@
     "subtitle": "From the streets of Cali to Tully Road",
     "content": "Rancholados was born from a craving that crossed borders: the street-corner cholado of Cali, Colombia — shaved ice, fresh fruit and a generous drizzle of condensed milk. We're a Colombian family that came to San José with our home recipes and one simple mission: that no one in our community should have to miss the flavors of home, and that everyone who hasn't tried them falls in love at first bite.",
     "content2": "That's why everything here is made by hand and with patience: homemade guanábana, lulo and passion fruit ice creams, obleas filled with arequipe, strawberries and cream, and the freshest fruit in the neighborhood, cut to order. Even our name is a play on words: Rancho + cholados, because this little ranch is ours and here the cholado is king.",
-    "cta": "Come get your refreshing treat — we're waiting for you every day on Tully Road."
+    "cta": "Come get your refreshing treat — we're waiting for you every day on Tully Road.",
+    "value1Title": "Handmade",
+    "value1Desc": "Every ice cream, every cholado, every oblea — made with patience and our family recipes.",
+    "value2Title": "Fresh Fruit",
+    "value2Desc": "The freshest fruit in the neighborhood, cut to order. No preservatives, no shortcuts.",
+    "value3Title": "Colombian Flavor",
+    "value3Desc": "Guanábana, lulo, passion fruit, arequipe — the flavors of Colombia, right here in San José."
   },
   "contact": {
     "title": "Visit Us",
@@ -35,12 +42,19 @@
     "getDirections": "Get Directions",
     "followUs": "Follow Us on Instagram",
     "orderDelivery": "Order on DoorDash",
-    "orderWhatsApp": "Order on WhatsApp"
+    "orderWhatsApp": "Order on WhatsApp",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "hoursLabel": "Hours"
   },
   "footer": {
     "tagline": "A refreshing treat, just the way you crave it",
     "rights": "All rights reserved.",
-    "madeWith": "Made with"
+    "madeWith": "Made with",
+    "links": "Links",
+    "hours": "Hours",
+    "schedule": "Monday – Sunday",
+    "scheduleTime": "12:00 PM – 10:00 PM"
   },
   "featured": {
     "title": "Fan Favorites",
