@@ -17,7 +17,7 @@ export default function Footer() {
                 alt="Rancholados - Frutería y Heladería"
                 width={200}
                 height={56}
-                className="h-12 w-auto brightness-110"
+                className="h-12 w-auto mix-blend-screen"
               />
             </div>
             <p className="font-body text-sm italic text-crema/60">
