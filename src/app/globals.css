@@ -9,6 +9,12 @@
   --color-chocolate: #3D2314;
   --color-arequipe: #D4A056;
   --color-rosa-hover: #D11A7D;
+  --color-chocolate-light: #5C3A24;
+  --color-chocolate-dark: #2A1508;
+  --color-dorado: #C9952C;
+  --color-dorado-light: #F5DEB3;
+  --color-verde-cali: #2D8B4E;
+  --color-cafe-con-leche: #E8D5C4;
   --font-heading: 'Baloo 2', cursive;
   --font-body: 'Nunito', sans-serif;
 }
@@ -204,6 +210,73 @@ h1, h2, h3, h4, h5, h6 {
   animation: image-reveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
+/* Texture overlays */
+.texture-noise {
+  position: relative;
+}
+
+.texture-noise::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  z-index: 1;
+}
+
+.texture-dots {
+  background-image: radial-gradient(circle, var(--color-chocolate) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Bento card hover effects */
+.bento-card {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.bento-card .bento-image {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              filter 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bento-card:hover .bento-image {
+  transform: scale(1.08);
+  filter: brightness(0.8);
+}
+
+.bento-card .bento-overlay {
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bento-card:hover .bento-overlay {
+  transform: translateY(0);
+}
+
+/* Scroll indicator bounce */
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+
+.animate-scroll-bounce {
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
+
+/* Process line draw */
+@keyframes draw-line {
+  from { stroke-dashoffset: 200; }
+  to { stroke-dashoffset: 0; }
+}
+
+.animate-draw-line {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: draw-line 1.5s ease-out forwards;
+}
+
 /* Stagger children animation delays */
 .stagger-children > *:nth-child(1) { transition-delay: 0ms; }
 .stagger-children > *:nth-child(2) { transition-delay: 80ms; }
@@ -249,4 +322,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .popup-card-out {
   animation: popup-card-out 0.35s ease-in forwards;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-fade-up,
+  .animate-bounce-in,
+  .animate-scroll-bounce,
+  .animate-draw-line { animation: none !important; }
+  .hero-gradient { animation: none !important; }
+  .text-shimmer { animation: none !important; -webkit-text-fill-color: var(--color-rosa-fuerte); }
+  .card-interactive:hover { transform: none; }
+  .bento-card .bento-image { transition: none; }
+  .bento-card .bento-overlay { transition: none; }
 }

@@ -64,6 +64,28 @@
     "title": "¿Dónde Estamos?",
     "subtitle": "De Cali pa' San José — Tully Road"
   },
+  "origin": {
+    "headline": "De las calles de Cali a tu barrio",
+    "description": "Trajimos los sabores auténticos del Valle del Cauca — los cholados, la fruta fresca, las recetas de familia — hasta San José.",
+    "badge1": "Recetas de Familia",
+    "badge2": "Fresco Cada Día",
+    "badge3": "Desde Cali"
+  },
+  "process": {
+    "title": "Cómo Lo Hacemos",
+    "subtitle": "Nuestro proceso",
+    "step1": "Fruta Fresca",
+    "step2": "Hecho a Mano",
+    "step3": "Servido con Amor",
+    "desc1": "Escogemos la fruta tropical más madura — mango, lulo, guanábana, maracuyá — y la picamos fresca cada día.",
+    "desc2": "Cada cholado, cada bola de helado, cada oblea se prepara a mano con las recetas originales de la familia desde Cali.",
+    "desc3": "Hecho al momento, como a ti te gusta. Con todos los toppings, todo el cariño y sin atajos."
+  },
+  "testimonials": {
+    "title": "Lo Que Dice la Gente",
+    "subtitle": "Reseñas",
+    "followUs": "Síguenos @rancholados"
+  },
   "locale": {
     "switch": "English"
   }

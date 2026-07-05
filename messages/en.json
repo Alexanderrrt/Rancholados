@@ -64,6 +64,28 @@
     "title": "Where We Are",
     "subtitle": "From Cali to San José — Tully Road"
   },
+  "origin": {
+    "headline": "From the streets of Cali to your neighborhood",
+    "description": "We brought the authentic flavors of Valle del Cauca — the cholados, the fresh fruit, the family recipes — all the way to San José.",
+    "badge1": "Family Recipes",
+    "badge2": "Fresh Daily",
+    "badge3": "Desde Cali"
+  },
+  "process": {
+    "title": "How We Make It",
+    "subtitle": "Our process",
+    "step1": "Fresh Fruit",
+    "step2": "Handmade",
+    "step3": "Served with Love",
+    "desc1": "We pick the ripest tropical fruit — mango, lulo, guanábana, passion fruit — and cut it fresh every day.",
+    "desc2": "Every cholado, every scoop, every oblea is prepared by hand using our family's original recipes from Cali.",
+    "desc3": "Made to order, the way you like it. With all the toppings, all the love, and zero shortcuts."
+  },
+  "testimonials": {
+    "title": "What People Are Saying",
+    "subtitle": "Reviews",
+    "followUs": "Follow us @rancholados"
+  },
   "locale": {
     "switch": "Español"
   }
