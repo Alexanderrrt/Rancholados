@@ -86,6 +86,33 @@
     "subtitle": "Reviews",
     "followUs": "Follow us @rancholados"
   },
+  "promos": {
+    "bar1": "Free topping on your first cholado! Order on WhatsApp",
+    "bar2": "New: Lulada Caleña — straight from Cali, $11.95",
+    "bar3": "Now on DoorDash! Get Rancholados delivered to your door",
+    "cholado": {
+      "title": "Try the Cholado Especial 🔥",
+      "desc": "Double fruit, homemade ice cream on top, extra condensed milk. Our most loaded creation.",
+      "cta": "Order Now"
+    },
+    "delivery": {
+      "title": "We Deliver! 🚗",
+      "desc": "Get your favorite cholados, milkshakes, and more delivered via DoorDash or WhatsApp.",
+      "cta": "Order Delivery"
+    },
+    "fresas": {
+      "title": "Fresas con Crema Season 🍓",
+      "desc": "Fresh strawberries with our homemade sweet cream and condensed milk. A Rancholados classic.",
+      "cta": "Order Now"
+    },
+    "popup": {
+      "badge": "⭐ Special",
+      "title": "Cholado Especial Rancholados",
+      "desc": "Our signature creation — double fruit, homemade ice cream, and extra condensed milk. The one everyone talks about.",
+      "cta": "Order on WhatsApp",
+      "dismiss": "Maybe later"
+    }
+  },
   "locale": {
     "switch": "Español"
   }

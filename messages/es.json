@@ -86,6 +86,33 @@
     "subtitle": "Reseñas",
     "followUs": "Síguenos @rancholados"
   },
+  "promos": {
+    "bar1": "¡Topping gratis en tu primer cholado! Ordena por WhatsApp",
+    "bar2": "Nueva: Lulada Caleña — directo de Cali, $11.95",
+    "bar3": "¡Ya estamos en DoorDash! Pide Rancholados a domicilio",
+    "cholado": {
+      "title": "Prueba el Cholado Especial 🔥",
+      "desc": "Doble fruta, helado casero encima, más lechera. Nuestra creación más cargada.",
+      "cta": "Pedir Ahora"
+    },
+    "delivery": {
+      "title": "¡Hacemos Domicilios! 🚗",
+      "desc": "Tus cholados, malteadas y más favoritos, entregados por DoorDash o WhatsApp.",
+      "cta": "Pedir a Domicilio"
+    },
+    "fresas": {
+      "title": "Temporada de Fresas con Crema 🍓",
+      "desc": "Fresas frescas con nuestra crema dulce casera y lechera por encima. Un clásico de Rancholados.",
+      "cta": "Pedir Ahora"
+    },
+    "popup": {
+      "badge": "⭐ Especial",
+      "title": "Cholado Especial Rancholados",
+      "desc": "Nuestra creación estrella — doble fruta, helado casero y más lechera. El que todos comentan.",
+      "cta": "Pedir por WhatsApp",
+      "dismiss": "Quizás después"
+    }
+  },
   "locale": {
     "switch": "English"
   }
