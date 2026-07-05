@@ -9,6 +9,7 @@ import OriginStory from "@/components/OriginStory";
 import ProcessStrip from "@/components/ProcessStrip";
 import PhotoBreak from "@/components/PhotoBreak";
 import Testimonials from "@/components/Testimonials";
+import PromoBanner from "@/components/PromoBanner";
 import { categories, featuredItemIds, getAllItems } from "@/data/menu";
 
 export default function HomePage() {
@@ -166,11 +167,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ===== PROMO: Cholado Especial ===== */}
+      <div className="py-4 bg-crema">
+        <PromoBanner variant="cholado" />
+      </div>
+
       {/* ===== 4. HOW WE MAKE IT ===== */}
       <ProcessStrip />
 
       {/* ===== 5. FULL-WIDTH PHOTO BREAK ===== */}
       <PhotoBreak />
+
+      {/* ===== PROMO: Delivery ===== */}
+      <div className="py-4 bg-crema">
+        <PromoBanner variant="delivery" />
+      </div>
 
       {/* ===== 6. TESTIMONIALS + SOCIAL PROOF ===== */}
       <Testimonials />
@@ -263,6 +274,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ===== PROMO: Fresas ===== */}
+      <div className="py-4 bg-crema">
+        <PromoBanner variant="fresas" />
+      </div>
 
       <DripDivider color="rosa-claro" flip />
 

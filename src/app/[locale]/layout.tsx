@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import LocationPopup from "@/components/LocationPopup";
+import AnnouncementBar from "@/components/AnnouncementBar";
+import PromoPopup from "@/components/PromoPopup";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -62,11 +64,13 @@ export default async function LocaleLayout({
       </head>
       <body className="bg-crema text-chocolate font-body min-h-screen flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <AnnouncementBar />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppFloat />
           <LocationPopup />
+          <PromoPopup />
         </NextIntlClientProvider>
       </body>
     </html>
