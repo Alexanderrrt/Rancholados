@@ -1,0 +1,113 @@
+
+> rancholados-site@0.1.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.1.10.114:3000
+✓ Ready in 1474ms
+
+ GET /en 200 in 2.5s (next.js: 1444ms, proxy.ts: 11ms, generate-params: 1119ms, application-code: 1048ms)
+ GET /en 200 in 288ms (next.js: 30ms, proxy.ts: 12ms, generate-params: 12ms, application-code: 246ms)
+ GET /en/menu 200 in 1738ms (next.js: 1235ms, proxy.ts: 7ms, generate-params: 1147ms, application-code: 496ms)
+ GET /en/menu 200 in 251ms (next.js: 31ms, proxy.ts: 9ms, generate-params: 12ms, application-code: 211ms)
+ GET /en/contact 200 in 1194ms (next.js: 996ms, proxy.ts: 9ms, generate-params: 937ms, application-code: 188ms)
+✓ Compiled in 1213ms
+✓ Compiled in 45ms
+ GET /en/contact 200 in 1824ms (next.js: 371ms, proxy.ts: 268ms, generate-params: 13ms, application-code: 1184ms)
+ GET /en/contact 200 in 1128ms (next.js: 66ms, proxy.ts: 40ms, generate-params: 113µs, application-code: 1022ms)
+ GET /en/contact 200 in 998ms (next.js: 106ms, proxy.ts: 95ms, generate-params: 94µs, application-code: 797ms)
+ GET /en/contact 200 in 999ms (next.js: 227ms, proxy.ts: 106ms, generate-params: 74µs, application-code: 667ms)
+ GET /en/contact 200 in 1101ms (next.js: 496ms, proxy.ts: 77ms, generate-params: 93µs, application-code: 528ms)
+ GET /en/contact 200 in 1106ms (next.js: 365ms, proxy.ts: 113ms, generate-params: 54µs, application-code: 629ms)
+ GET /en/contact 200 in 908ms (next.js: 31ms, proxy.ts: 17ms, generate-params: 101µs, application-code: 860ms)
+ GET /en/contact 200 in 860ms (next.js: 48ms, proxy.ts: 29ms, generate-params: 83µs, application-code: 783ms)
+ GET /en/contact 200 in 892ms (next.js: 146ms, proxy.ts: 62ms, generate-params: 115µs, application-code: 683ms)
+ GET /en/contact 200 in 902ms (next.js: 63ms, proxy.ts: 61ms, generate-params: 151µs, application-code: 779ms)
+ GET /en/contact 200 in 895ms (next.js: 219ms, proxy.ts: 53ms, generate-params: 53µs, application-code: 624ms)
+ GET /en/contact 200 in 1017ms (next.js: 312ms, proxy.ts: 36ms, generate-params: 65µs, application-code: 669ms)
+ GET /en/contact 200 in 1081ms (next.js: 91ms, proxy.ts: 25ms, generate-params: 15ms, application-code: 965ms)
+ GET /en/contact 200 in 892ms (next.js: 72ms, proxy.ts: 47ms, generate-params: 79µs, application-code: 773ms)
+ GET /en/contact 200 in 893ms (next.js: 97ms, proxy.ts: 230ms, generate-params: 74µs, application-code: 566ms)
+ GET /en/contact 200 in 750ms (next.js: 202ms, proxy.ts: 100ms, generate-params: 42µs, application-code: 448ms)
+ GET /en/contact 200 in 727ms (next.js: 285ms, proxy.ts: 90ms, generate-params: 59µs, application-code: 352ms)
+ GET /en/contact 200 in 728ms (next.js: 366ms, proxy.ts: 94ms, generate-params: 39µs, application-code: 268ms)
+ GET /en/contact 200 in 638ms (next.js: 20ms, proxy.ts: 10ms, generate-params: 136µs, application-code: 609ms)
+ GET /en/contact 200 in 601ms (next.js: 40ms, proxy.ts: 36ms, generate-params: 52µs, application-code: 525ms)
+ GET /en/contact 200 in 645ms (next.js: 41ms, proxy.ts: 100ms, generate-params: 62µs, application-code: 504ms)
+ GET /en/contact 200 in 652ms (next.js: 133ms, proxy.ts: 102ms, generate-params: 53µs, application-code: 417ms)
+ GET /en/contact 200 in 595ms (next.js: 250ms, proxy.ts: 48ms, generate-params: 73µs, application-code: 296ms)
+ GET /en/contact 200 in 602ms (next.js: 193ms, proxy.ts: 48ms, generate-params: 26µs, application-code: 361ms)
+ GET /en/contact 200 in 765ms (next.js: 26ms, proxy.ts: 17ms, generate-params: 35µs, application-code: 722ms)
+ GET /en/contact 200 in 713ms (next.js: 47ms, proxy.ts: 31ms, generate-params: 33µs, application-code: 635ms)
+ GET /en/contact 200 in 767ms (next.js: 86ms, proxy.ts: 125ms, generate-params: 62µs, application-code: 556ms)
+ GET /en/contact 200 in 693ms (next.js: 139ms, proxy.ts: 70ms, generate-params: 12ms, application-code: 484ms)
+ GET /en/contact 200 in 669ms (next.js: 237ms, proxy.ts: 47ms, generate-params: 86µs, application-code: 385ms)
+ GET /en/contact 200 in 668ms (next.js: 307ms, proxy.ts: 48ms, generate-params: 48µs, application-code: 314ms)
+ GET /en/contact 200 in 649ms (next.js: 43ms, proxy.ts: 11ms, generate-params: 85µs, application-code: 596ms)
+ GET /en/contact 200 in 541ms (next.js: 53ms, proxy.ts: 22ms, generate-params: 25µs, application-code: 467ms)
+ GET /en/contact 200 in 517ms (next.js: 159ms, proxy.ts: 32ms, generate-params: 30µs, application-code: 326ms)
+ GET /en/contact 200 in 495ms (next.js: 108ms, proxy.ts: 133ms, generate-params: 93µs, application-code: 254ms)
+ GET /en/contact 200 in 405ms (next.js: 165ms, proxy.ts: 56ms, generate-params: 48µs, application-code: 184ms)
+ GET /en/contact 200 in 403ms (next.js: 231ms, proxy.ts: 55ms, generate-params: 34µs, application-code: 118ms)
+✓ Compiled in 164ms
+ GET /en/contact 200 in 867ms (next.js: 232ms, proxy.ts: 71ms, generate-params: 16ms, application-code: 564ms)
+ GET /en/contact 200 in 408ms (next.js: 18ms, proxy.ts: 18ms, generate-params: 46µs, application-code: 372ms)
+ GET /en/contact 200 in 301ms (next.js: 168ms, proxy.ts: 27ms, generate-params: 45µs, application-code: 106ms)
+ GET /en/contact 200 in 310ms (next.js: 95ms, proxy.ts: 31ms, generate-params: 73µs, application-code: 184ms)
+ GET /en/contact 200 in 315ms (next.js: 35ms, proxy.ts: 30ms, generate-params: 54µs, application-code: 249ms)
+✓ Compiled in 90ms
+ GET /en/contact 200 in 607ms (next.js: 247ms, proxy.ts: 72ms, generate-params: 36ms, application-code: 287ms)
+ GET /en/contact 200 in 136ms (next.js: 19ms, proxy.ts: 24ms, generate-params: 28µs, application-code: 93ms)
+✓ Compiled in 118ms
+ GET /en/contact 200 in 599ms (next.js: 169ms, proxy.ts: 49ms, generate-params: 8ms, application-code: 381ms)
+ GET /en/contact 200 in 232ms (next.js: 48ms, proxy.ts: 28ms, generate-params: 60µs, application-code: 155ms)
+✓ Compiled in 136ms
+ GET /en/contact 200 in 651ms (next.js: 203ms, proxy.ts: 83ms, generate-params: 10ms, application-code: 365ms)
+ GET /en/contact 200 in 214ms (next.js: 42ms, proxy.ts: 28ms, generate-params: 33µs, application-code: 145ms)
+✓ Compiled in 109ms
+ GET /en/contact 200 in 521ms (next.js: 195ms, proxy.ts: 60ms, generate-params: 12ms, application-code: 265ms)
+ GET /en/contact 200 in 140ms (next.js: 16ms, proxy.ts: 21ms, generate-params: 31µs, application-code: 103ms)
+✓ Compiled in 120ms
+ GET /en/contact 200 in 572ms (next.js: 182ms, proxy.ts: 55ms, generate-params: 14ms, application-code: 335ms)
+ GET /en/contact 200 in 192ms (next.js: 31ms, proxy.ts: 36ms, generate-params: 56µs, application-code: 125ms)
+ GET /en/contact 500 in 2.2s (next.js: 1727ms, proxy.ts: 77ms, application-code: 366ms)
+ GET /en/contact 500 in 245ms (next.js: 167ms, proxy.ts: 35ms, application-code: 43ms)
+ GET /en/contact 500 in 238ms (next.js: 202ms, proxy.ts: 20ms, application-code: 16ms)
+✓ Compiled in 142ms
+ GET /en/contact 200 in 889ms (next.js: 260ms, proxy.ts: 132ms, generate-params: 15ms, application-code: 497ms)
+✓ Compiled in 88ms
+ GET /en/contact 200 in 1016ms (next.js: 191ms, proxy.ts: 47ms, generate-params: 11ms, application-code: 778ms)
+ GET /en/contact 200 in 598ms (next.js: 31ms, proxy.ts: 20ms, generate-params: 103µs, application-code: 546ms)
+ GET /en/contact 200 in 512ms (next.js: 51ms, proxy.ts: 50ms, generate-params: 60µs, application-code: 410ms)
+ GET /en/contact 200 in 511ms (next.js: 173ms, proxy.ts: 52ms, generate-params: 43µs, application-code: 287ms)
+ GET /en/contact 200 in 525ms (next.js: 115ms, proxy.ts: 49ms, generate-params: 75µs, application-code: 361ms)
+ GET /en/contact 200 in 518ms (next.js: 233ms, proxy.ts: 50ms, generate-params: 45µs, application-code: 235ms)
+ GET /en 200 in 373ms (next.js: 226ms, proxy.ts: 11ms, generate-params: 11ms, application-code: 136ms)
+ GET / 200 in 111ms (next.js: 19ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 85ms)
+ GET /en 200 in 146ms (next.js: 21ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 117ms)
+ GET / 200 in 133ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 44µs, application-code: 111ms)
+ GET /contact 200 in 74ms (next.js: 28ms, proxy.ts: 7ms, generate-params: 11ms, application-code: 39ms)
+✓ Compiled in 222ms
+ GET /contact 200 in 717ms (next.js: 164ms, proxy.ts: 48ms, generate-params: 7ms, application-code: 505ms)
+ GET /contact 200 in 353ms (next.js: 31ms, proxy.ts: 37ms, generate-params: 41µs, application-code: 284ms)
+ GET /contact 200 in 134ms (next.js: 24ms, proxy.ts: 26ms, generate-params: 35µs, application-code: 84ms)
+ GET / 200 in 158ms (next.js: 50ms, proxy.ts: 11ms, generate-params: 12ms, application-code: 96ms)
+ GET /menu 200 in 315ms (next.js: 197ms, proxy.ts: 4ms, generate-params: 8ms, application-code: 113ms)
+ GET / 200 in 154ms (next.js: 30ms, proxy.ts: 9ms, generate-params: 12ms, application-code: 115ms)
+✓ Compiled in 144ms
+ GET / 200 in 687ms (next.js: 211ms, proxy.ts: 98ms, generate-params: 11ms, application-code: 378ms)
+✓ Compiled in 127ms
+ GET / 200 in 570ms (next.js: 261ms, proxy.ts: 53ms, generate-params: 13ms, application-code: 256ms)
+✓ Compiled in 187ms
+ GET /contact 200 in 102ms (next.js: 38ms, proxy.ts: 10ms, generate-params: 12ms, application-code: 54ms)
+ GET /contact 200 in 264ms (next.js: 19ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 238ms)
+ GET / 200 in 157ms (next.js: 25ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 127ms)
+✓ Compiled in 235ms
+ GET / 200 in 1165ms (next.js: 212ms, proxy.ts: 70ms, generate-params: 15ms, application-code: 883ms)
+ GET / 200 in 712ms (next.js: 23ms, proxy.ts: 52ms, generate-params: 82µs, application-code: 638ms)
+ GET / 200 in 456ms (next.js: 131ms, proxy.ts: 56ms, generate-params: 38µs, application-code: 269ms)
+ GET / 200 in 461ms (next.js: 39ms, proxy.ts: 64ms, generate-params: 50µs, application-code: 358ms)
+ GET / 200 in 580ms (next.js: 19ms, proxy.ts: 13ms, generate-params: 9ms, application-code: 548ms)
+ GET / 200 in 211ms (next.js: 19ms, proxy.ts: 6ms, generate-params: 10ms, application-code: 186ms)
+ GET / 200 in 233ms (next.js: 28ms, proxy.ts: 11ms, generate-params: 10ms, application-code: 194ms)

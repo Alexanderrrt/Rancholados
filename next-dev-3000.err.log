@@ -1,0 +1,1966 @@
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[browser] Image with src "/Cholado.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/LogoHero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/stock/cholado.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/images/stock/smoothies.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] Uncaught Error: ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./src/app/[locale]/page.tsx:94:28)
+    at <unknown> (Error: (./src/app/[locale]/page.tsx:94:28)
+⨯ ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  [90m92 |[0m                 </div>
+  [90m93 |[0m               </div>
+[31m[1m>[0m [90m94 |[0m             </[33mScrollReveal[0m>
+  [90m   |[0m                            [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m95 |[0m           </div>
+  [90m   |[0m [31m[1m^^^^^^^^^^[0m
+  [90m96 |[0m         </div>
+  [90m97 |[0m       </[33mImmersiveHero[0m>
+  [90m98 |[0m
+
+Parsing ecmascript source code failed
+
+
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] ./src/app/[locale]/page.tsx:94:28
+Expected '</', got 'jsx text'
+  92 |                 </div>
+  93 |               </div>
+> 94 |             </ScrollReveal>
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 95 |           </div>
+     | ^^^^^^^^^^
+  96 |         </div>
+  97 |       </ImmersiveHero>
+  98 |
+
+Parsing ecmascript source code failed 
+[browser] Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[browser] Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[browser] Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[browser] Image with src "/Cholado.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/Cholado.png" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
