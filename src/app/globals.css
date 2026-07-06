@@ -26,6 +26,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 *:focus-visible {
@@ -188,7 +195,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shimmer 4s linear infinite;
 }
 
 /* Scrollbar hide */
@@ -233,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Bento card hover effects */
 .bento-card {
   overflow: hidden;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .bento-card .bento-image {
@@ -247,12 +253,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bento-card .bento-overlay {
-  transform: translateY(100%);
+  transform: translateY(0);
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.bento-card:hover .bento-overlay {
-  transform: translateY(0);
+@media (hover: hover) and (pointer: fine) {
+  .bento-card .bento-overlay {
+    transform: translateY(100%);
+  }
+
+  .bento-card:hover .bento-overlay {
+    transform: translateY(0);
+  }
 }
 
 /* Scroll indicator bounce */

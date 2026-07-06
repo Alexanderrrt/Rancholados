@@ -24,7 +24,7 @@ export const categories: Category[] = [
     nameEs: "Cholados",
     nameEn: "Cholados (Colombian Shaved Ice)",
     slug: "cholados",
-    image: "/images/stock/cholado.jpg",
+    image: "/Cholado.png",
     items: [
       {
         id: "cholado-clasico",
@@ -33,7 +33,7 @@ export const categories: Category[] = [
         descEs: "Hielo raspado con jarabes de fruta, fruta fresca picada, lechera, coco rallado y oblea encima.",
         descEn: "Shaved ice with fruit syrups, fresh-cut fruit, condensed milk, shredded coconut and a wafer on top.",
         priceCents: 1395,
-        image: "/images/stock/cholado.jpg",
+        image: "/Cholado.png",
         isAvailable: true,
       },
       {
@@ -43,7 +43,7 @@ export const categories: Category[] = [
         descEs: "El cholado con todo: doble fruta, helado casero encima y más lechera.",
         descEn: "The loaded cholado: double fruit, homemade ice cream on top and extra condensed milk.",
         priceCents: 1595,
-        image: "/images/stock/cholado.jpg",
+        image: "/Cholado.png",
         isAvailable: true,
       },
       {
