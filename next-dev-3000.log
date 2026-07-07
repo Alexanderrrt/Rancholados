@@ -111,3 +111,5 @@
  GET / 200 in 580ms (next.js: 19ms, proxy.ts: 13ms, generate-params: 9ms, application-code: 548ms)
  GET / 200 in 211ms (next.js: 19ms, proxy.ts: 6ms, generate-params: 10ms, application-code: 186ms)
  GET / 200 in 233ms (next.js: 28ms, proxy.ts: 11ms, generate-params: 10ms, application-code: 194ms)
+ GET /en 200 in 285ms (next.js: 25ms, proxy.ts: 10ms, generate-params: 9ms, application-code: 249ms)
+[?25h
