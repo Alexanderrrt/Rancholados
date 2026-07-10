@@ -52,6 +52,15 @@ body {
   overflow-x: hidden;
 }
 
+.apple-pay-button {
+  -webkit-appearance: -apple-pay-button;
+  -apple-pay-button-type: buy;
+  -apple-pay-button-style: black;
+  appearance: none;
+  min-height: 48px;
+  border-radius: 9999px;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

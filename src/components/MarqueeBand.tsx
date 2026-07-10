@@ -2,13 +2,13 @@ import { useLocale } from "next-intl";
 import { getItemById } from "@/data/menu";
 
 const SIGNATURE_IDS = [
-  "cholado-clasico",
-  "fresas-con-crema",
-  "malteada-oreo",
-  "lulada",
-  "oblea-especial",
+  "cholado-sencillo",
+  "fresas-dubai",
+  "malteada",
+  "ranchoblea",
   "ensalada-frutas",
-  "limonada-coco",
+  "maracumango",
+  "merengon",
 ];
 
 export default function MarqueeBand() {

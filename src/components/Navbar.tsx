@@ -5,11 +5,13 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link, usePathname } from "@/i18n/routing";
 import LocaleToggle from "./LocaleToggle";
+import { useCart } from "./CartProvider";
 
 export default function Navbar() {
   const t = useTranslations("nav");
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { count } = useCart();
 
   const links = [
     { href: "/", label: t("home") },
@@ -62,6 +64,14 @@ export default function Navbar() {
             </Link>
           ))}
           <LocaleToggle />
+          <Link
+            href="/checkout"
+            className="relative inline-flex h-10 items-center gap-2 rounded-full border border-chocolate/10 bg-blanco px-4 font-body text-sm font-extrabold text-chocolate hover:text-rosa-fuerte"
+            aria-label={`Cart, ${count} items`}
+          >
+            <span aria-hidden>🛒</span>
+            <span>{count}</span>
+          </Link>
           <a
             href="https://wa.me/14087975538"
             target="_blank"
@@ -77,6 +87,13 @@ export default function Navbar() {
 
         {/* Mobile: hamburger */}
         <div className="flex md:hidden items-center gap-3">
+          <Link
+            href="/checkout"
+            className="relative inline-flex h-10 min-w-10 items-center justify-center rounded-full bg-rosa-claro px-3 font-bold text-chocolate"
+            aria-label={`Cart, ${count} items`}
+          >
+            🛒 <span className="ml-1 text-xs">{count}</span>
+          </Link>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="nav-toggle"

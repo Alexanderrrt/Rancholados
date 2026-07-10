@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import AnnouncementBar from "@/components/AnnouncementBar";
+import CartProvider from "@/components/CartProvider";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -108,11 +109,13 @@ export default async function LocaleLayout({
         />
         <div className="scroll-progress" aria-hidden />
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <AnnouncementBar />
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <WhatsAppFloat />
+          <CartProvider>
+            <AnnouncementBar />
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <WhatsAppFloat />
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -33,21 +33,21 @@ export function fallbackRecommend(answers: {
   weather: Weather;
 }): { itemId: string; altItemId: string } {
   if (answers.weather === "frio") {
-    return answers.craving === "cremoso"
-      ? { itemId: "malteada-arequipe", altItemId: "oblea-clasica" }
-      : { itemId: "oblea-especial", altItemId: "malteada-arequipe" };
+    return answers.craving === "dulce"
+      ? { itemId: "affogato-brownie", altItemId: "chocolate-caliente" }
+      : { itemId: "chocolate-caliente", altItemId: "canelazo" };
   }
   switch (answers.craving) {
     case "frio":
-      return { itemId: "cholado-clasico", altItemId: "lulada" };
+      return { itemId: "cholado-sencillo", altItemId: "raspados" };
     case "cremoso":
-      return { itemId: "malteada-oreo", altItemId: "fresas-con-crema" };
+      return { itemId: "malteada", altItemId: "fresas-con-crema" };
     case "fruta":
       return { itemId: "ensalada-frutas", altItemId: "salpicon" };
     case "dulce":
-      return { itemId: "oblea-especial", altItemId: "fresas-helado" };
+      return { itemId: "ranchoblea", altItemId: "fresas-dubai" };
     default:
-      return { itemId: "cholado-clasico", altItemId: "fresas-con-crema" };
+      return { itemId: "cholado-helado", altItemId: "fresas-con-crema" };
   }
 }
 

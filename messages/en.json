@@ -120,11 +120,11 @@
   },
   "promos": {
     "bar1": "Free topping on your first cholado! Order on WhatsApp",
-    "bar2": "New: Lulada Caleña — straight from Cali, $11.95",
+    "bar2": "New: Dubai Strawberries — chocolate, pistachio & kataifi, $16",
     "bar3": "Now on DoorDash! Get Rancholados delivered to your door",
     "cholado": {
-      "title": "Try the Cholado Especial 🔥",
-      "desc": "Double fruit, homemade ice cream on top, extra condensed milk. Our most loaded creation.",
+      "title": "Try the Cholado with Ice Cream 🔥",
+      "desc": "Guanábana, lulo, passion fruit, watermelon, kiwi, mango and apple, topped with homemade ice cream. Our most ordered.",
       "cta": "Order Now"
     },
     "delivery": {
@@ -139,8 +139,8 @@
     },
     "popup": {
       "badge": "⭐ Special",
-      "title": "Cholado Especial Rancholados",
-      "desc": "Our signature creation — double fruit, homemade ice cream, and extra condensed milk. The one everyone talks about.",
+      "title": "Cholado with Ice Cream",
+      "desc": "Our signature creation — guanábana, lulo, passion fruit, watermelon, kiwi, mango, apple and homemade ice cream on top. The one everyone talks about.",
       "cta": "Order on WhatsApp",
       "dismiss": "Maybe later"
     }

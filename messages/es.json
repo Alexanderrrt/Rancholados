@@ -120,11 +120,11 @@
   },
   "promos": {
     "bar1": "¡Topping gratis en tu primer cholado! Ordena por WhatsApp",
-    "bar2": "Nueva: Lulada Caleña — directo de Cali, $11.95",
+    "bar2": "Nuevas: Fresas Dubai — chocolate, pistacho y kataifi, $16",
     "bar3": "¡Ya estamos en DoorDash! Pide Rancholados a domicilio",
     "cholado": {
-      "title": "Prueba el Cholado Especial 🔥",
-      "desc": "Doble fruta, helado casero encima, más lechera. Nuestra creación más cargada.",
+      "title": "Prueba el Cholado con Helado 🔥",
+      "desc": "Guanábana, lulo, maracuyá, sandía, kiwi, mango y manzana, con helado casero encima. El más pedido.",
       "cta": "Pedir Ahora"
     },
     "delivery": {
@@ -139,8 +139,8 @@
     },
     "popup": {
       "badge": "⭐ Especial",
-      "title": "Cholado Especial Rancholados",
-      "desc": "Nuestra creación estrella — doble fruta, helado casero y más lechera. El que todos comentan.",
+      "title": "Cholado con Helado",
+      "desc": "Nuestra creación estrella — guanábana, lulo, maracuyá, sandía, kiwi, mango, manzana y helado casero encima. El que todos comentan.",
       "cta": "Pedir por WhatsApp",
       "dismiss": "Quizás después"
     }
