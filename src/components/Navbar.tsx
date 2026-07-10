@@ -19,7 +19,7 @@ export default function Navbar() {
   ] as const;
 
   return (
-    <nav className="sticky top-0 z-50 nav-glass shadow-[0_2px_16px_rgba(61,35,20,0.06)]">
+    <nav className="sticky top-0 z-50 nav-glass backdrop-blur-md backdrop-saturate-150 shadow-[0_2px_16px_rgba(61,35,20,0.06)]">
       {/* Colombian flag stripe */}
       <div className="flex h-[3px]">
         <div className="flex-[2] bg-[#FCD116]" />

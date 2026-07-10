@@ -76,7 +76,7 @@ export default function MenuPage() {
                     {cat.image ? (
                       <Image
                         src={cat.image}
-                        alt=""
+                        alt={isEs ? cat.nameEs : cat.nameEn}
                         fill
                         className="object-cover"
                         sizes="64px"

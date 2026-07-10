@@ -30,22 +30,22 @@ export default function HomePage() {
       <ImmersiveHero>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16 lg:py-20">
           <div className="max-w-2xl pt-4 md:pt-8 pb-10 md:pb-14">
-            <div className="hero-in-1">
+            <ScrollReveal animation="fade-up" duration={700} threshold={0.05}>
               <div className="inline-flex items-center gap-2 bg-blanco/80 border border-chocolate/10 rounded-full px-4 py-2 shadow-sm backdrop-blur mb-5">
                 <span className="h-2 w-2 rounded-full bg-rosa-fuerte" />
                 <span className="font-body text-xs font-extrabold text-chocolate/70 tracking-[0.16em] uppercase">
                   {isEs ? "De Cali a San Jose" : "From Cali to San Jose"}
                 </span>
               </div>
-            </div>
+            </ScrollReveal>
 
-            <div className="hero-in-2">
+            <ScrollReveal animation="fade-up" delay={100} duration={700} threshold={0.05}>
               <h1 className="font-heading display-xl font-extrabold text-chocolate mb-5">
                 Rancholados
               </h1>
-            </div>
+            </ScrollReveal>
 
-            <div className="hero-in-3">
+            <ScrollReveal animation="fade-up" delay={200} duration={700} threshold={0.05}>
               <p className="font-heading text-2xl sm:text-3xl md:text-4xl font-extrabold text-rosa-fuerte leading-tight text-balance mb-4">
                 {isEs ? (
                   <>
@@ -59,18 +59,18 @@ export default function HomePage() {
                   </>
                 )}
               </p>
-            </div>
+            </ScrollReveal>
 
-            <div className="hero-in-4">
+            <ScrollReveal animation="fade-up" delay={300} duration={700} threshold={0.05}>
               <p className="font-body text-base sm:text-lg md:text-xl text-chocolate/70 max-w-xl text-balance mb-3">
                 {t("hero.subtitle")}
               </p>
               <p className="font-heading text-lg sm:text-xl text-chocolate/65 italic mb-7">
                 &ldquo;{t("hero.tagline")}&rdquo;
               </p>
-            </div>
+            </ScrollReveal>
 
-            <div className="hero-in-5">
+            <ScrollReveal animation="fade-up" delay={400} duration={700} threshold={0.05}>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/menu"
@@ -119,7 +119,7 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </ImmersiveHero>
@@ -287,7 +287,7 @@ export default function HomePage() {
                   {cat.image ? (
                     <Image
                       src={cat.image}
-                      alt=""
+                      alt={isEs ? cat.nameEs : cat.nameEn}
                       fill
                       className="card-image object-cover opacity-75"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
