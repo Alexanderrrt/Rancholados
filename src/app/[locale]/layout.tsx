@@ -50,6 +50,45 @@ export default async function LocaleLayout({
 
   const messages = (await import(`../../../messages/${locale}.json`)).default;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "IceCreamShop",
+    name: "Rancholados",
+    description:
+      "Colombian fruit and ice cream shop in San Jose, CA. Cholados, homemade ice cream, fresas con crema, obleas and fresh fruit.",
+    image: "https://rancholados.vercel.app/logo.jpg",
+    url: "https://rancholados.vercel.app",
+    telephone: "+14087975538",
+    priceRange: "$$",
+    servesCuisine: "Colombian",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "1075 Tully Rd, Suite 24",
+      addressLocality: "San Jose",
+      addressRegion: "CA",
+      postalCode: "95122",
+      addressCountry: "US",
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "12:00",
+      closes: "22:00",
+    },
+    sameAs: [
+      "https://www.instagram.com/rancholados/",
+      "https://www.doordash.com/store/35880125",
+    ],
+  };
+
   return (
     <html lang={locale}>
       <head>
@@ -61,6 +100,13 @@ export default async function LocaleLayout({
         />
       </head>
       <body className="bg-crema text-chocolate font-body min-h-screen flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
+        <div className="scroll-progress" aria-hidden />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <AnnouncementBar />
           <Navbar />

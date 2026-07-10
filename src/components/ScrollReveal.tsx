@@ -1,6 +1,20 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+
+function subscribeReducedMotion(callback: () => void) {
+  const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+  mq.addEventListener("change", callback);
+  return () => mq.removeEventListener("change", callback);
+}
+
+function usePrefersReducedMotion() {
+  return useSyncExternalStore(
+    subscribeReducedMotion,
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    () => false
+  );
+}
 
 interface Props {
   children: React.ReactNode;
@@ -23,6 +37,7 @@ export default function ScrollReveal({
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
+  const reducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
     const el = ref.current;
@@ -65,10 +80,14 @@ export default function ScrollReveal({
     <div
       ref={ref}
       className={className}
-      style={{
-        ...baseStyles,
-        ...(visible ? visibleStyle : hiddenStyles[animation]),
-      }}
+      style={
+        reducedMotion
+          ? undefined
+          : {
+              ...baseStyles,
+              ...(visible ? visibleStyle : hiddenStyles[animation]),
+            }
+      }
     >
       {children}
     </div>

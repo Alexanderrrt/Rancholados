@@ -11,7 +11,10 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="hero-gradient py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="font-heading text-4xl md:text-5xl font-extrabold text-chocolate mb-3">
+          <p className="sec-eyebrow font-body mb-4" data-num="01">
+            Rancholados
+          </p>
+          <h1 className="font-heading text-[clamp(2.5rem,6vw,4.5rem)] font-extrabold text-chocolate mb-3 leading-tight">
             {t("title")} 🇨🇴
           </h1>
           <p className="font-heading text-xl md:text-2xl text-shimmer">
@@ -68,7 +71,7 @@ export default function AboutPage() {
               { emoji: "❤️", titleKey: "value3Title", descKey: "value3Desc" },
             ].map((v, i) => (
               <ScrollReveal key={v.titleKey} animation="flip-up" delay={i * 150}>
-                <div className="bg-blanco rounded-2xl p-8 shadow-sm card-interactive">
+                <div className="bg-blanco rounded-2xl p-8 shadow-sm card-interactive card-accent overflow-hidden">
                   <span className="text-4xl block mb-3">{v.emoji}</span>
                   <h3 className="font-heading text-xl font-bold text-chocolate mb-2">
                     {t(v.titleKey)}

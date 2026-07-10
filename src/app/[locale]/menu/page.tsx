@@ -1,5 +1,6 @@
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
 import { categories } from "@/data/menu";
 import MenuItemCard from "@/components/MenuItemCard";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -24,15 +25,22 @@ export default function MenuPage() {
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto px-4 py-10 md:py-14">
-          <p className="font-body text-rosa-fuerte text-sm tracking-[0.2em] uppercase mb-3">
+          <p className="sec-eyebrow font-body mb-3" data-num="✶">
             {isEs ? "Hecho a mano" : "Made by hand"}
           </p>
-          <h1 className="font-heading text-4xl md:text-6xl font-extrabold text-chocolate leading-tight">
+          <h1 className="font-heading text-[clamp(2.5rem,6vw,4.5rem)] font-extrabold text-chocolate leading-tight">
             {t("title")}
           </h1>
           <p className="font-body text-lg text-chocolate/65 max-w-2xl mt-2">
             {t("subtitle")}
           </p>
+
+          <Link
+            href="/#antojo"
+            className="mt-5 inline-flex items-center gap-2 rounded-full border border-rosa-fuerte/30 bg-blanco/85 px-5 py-2.5 font-body text-sm font-extrabold text-rosa-fuerte shadow-sm backdrop-blur hover:border-rosa-fuerte/60 transition-colors btn-shine"
+          >
+            ✨ {t("antojoBanner")}
+          </Link>
         </div>
       </section>
 
@@ -78,8 +86,11 @@ export default function MenuPage() {
                     )}
                   </div>
                   <div>
-                    <p className="font-body text-xs font-extrabold uppercase tracking-[0.14em] text-rosa-fuerte">
-                      {String(idx + 1).padStart(2, "0")}
+                    <p
+                      className="sec-eyebrow font-body"
+                      data-num={String(idx + 1).padStart(2, "0")}
+                    >
+                      {isEs ? "Categoria" : "Category"}
                     </p>
                     <h2 className="font-heading text-2xl md:text-4xl font-extrabold text-chocolate leading-tight">
                       {isEs ? cat.nameEs : cat.nameEn}
@@ -97,7 +108,10 @@ export default function MenuPage() {
                       animation="fade-up"
                       delay={i * 70}
                     >
-                      <MenuItemCard item={item} />
+                      <MenuItemCard
+                        item={item}
+                        num={String(i + 1).padStart(2, "0")}
+                      />
                     </ScrollReveal>
                   ))}
               </div>

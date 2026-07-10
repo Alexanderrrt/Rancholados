@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import ScrollReveal from "./ScrollReveal";
+import SectionHead from "./SectionHead";
 
 const testimonials = {
   en: [
@@ -32,17 +33,16 @@ export default function Testimonials() {
   const reviews = locale === "es" ? testimonials.es : testimonials.en;
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-rosa-claro via-blanco to-azul-bebe/30 texture-noise">
+    <section className="relative overflow-hidden bg-gradient-to-br from-rosa-claro via-blanco to-azul-bebe/30">
       <div className="relative z-10 max-w-6xl mx-auto px-4 py-20 md:py-28">
         <ScrollReveal animation="fade-up">
-          <div className="text-center mb-14">
-            <p className="font-body text-rosa-fuerte text-sm tracking-[0.2em] uppercase mb-3">
-              {t("subtitle")}
-            </p>
-            <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-chocolate">
-              {t("title")}
-            </h2>
-          </div>
+          <SectionHead
+            num="04"
+            align="center"
+            eyebrow={t("subtitle")}
+            title={t("title")}
+            className="mb-14"
+          />
         </ScrollReveal>
 
         {/* Testimonial cards */}

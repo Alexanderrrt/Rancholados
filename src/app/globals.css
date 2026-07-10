@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* ============================================================
+   1. Theme + design tokens
+   ============================================================ */
+
 @theme inline {
   --color-rosa-fuerte: #E91E8C;
   --color-rosa-claro: #FDE8F0;
@@ -22,7 +26,20 @@
 :root {
   --background: #FFF8F0;
   --foreground: #3D2314;
+  --ease: cubic-bezier(.22, .61, .36, 1);
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --shadow-1: 0 1px 2px rgba(61, 35, 20, .06), 0 8px 24px -16px rgba(61, 35, 20, .35);
+  --shadow-2: 0 24px 60px -22px rgba(61, 35, 20, .4);
+  --r: 18px;
+  --r-sm: 12px;
+  --tricolor: linear-gradient(90deg, #FCD116 0 50%, #003893 50% 75%, #CE1126 75% 100%);
+  --rosa-grad: linear-gradient(135deg, #E91E8C, #D11A7D 45%, #D4A056);
+  --hairline: rgba(233, 30, 140, .25);
 }
+
+/* ============================================================
+   2. Base
+   ============================================================ */
 
 html {
   scroll-behavior: smooth;
@@ -35,12 +52,6 @@ body {
   overflow-x: hidden;
 }
 
-*:focus-visible {
-  outline: 2px solid #E91E8C;
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -49,7 +60,420 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
+  text-wrap: balance;
 }
+
+p {
+  text-wrap: pretty;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Fluid display type */
+.display-xl {
+  font-size: clamp(3rem, 9vw, 6.5rem);
+  line-height: .95;
+}
+
+.h2-fluid {
+  font-size: clamp(1.9rem, 5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+/* ============================================================
+   3. Paper grain (site-wide)
+   ============================================================ */
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.035;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Legacy per-section noise (kept for compatibility) */
+.texture-noise {
+  position: relative;
+}
+
+.texture-dots {
+  background-image: radial-gradient(circle, var(--color-chocolate) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ============================================================
+   4. Editorial numbered section heads
+   ============================================================ */
+
+.sec-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--color-rosa-fuerte);
+}
+
+.sec-eyebrow::before {
+  content: attr(data-num);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0;
+  color: var(--color-arequipe);
+  padding-right: 12px;
+  border-right: 1px solid var(--hairline);
+}
+
+.sec-eyebrow::after {
+  content: '';
+  width: 42px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--tricolor);
+}
+
+.sec-eyebrow-light {
+  color: var(--color-dorado-light);
+}
+
+/* ============================================================
+   5. Glass nav + hamburger + link underline
+   ============================================================ */
+
+.nav-glass {
+  background: rgba(255, 255, 255, .7);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.nav-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--color-chocolate);
+  transition: transform .25s var(--ease), opacity .25s var(--ease);
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-rosa-fuerte);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s var(--ease);
+}
+
+.nav-link:hover::after,
+.nav-link-active::after {
+  transform: scaleX(1);
+}
+
+/* ============================================================
+   6. Button kit
+   ============================================================ */
+
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+
+.btn-shine:hover {
+  transform: translateY(-2px);
+}
+
+.btn-shine:active {
+  transform: scale(.97);
+}
+
+.btn-shine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -130%;
+  width: 60%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .35), transparent);
+  transform: skewX(-20deg);
+  pointer-events: none;
+}
+
+.btn-shine:hover::after {
+  left: 130%;
+  transition: left .7s var(--ease);
+}
+
+.pill-interactive {
+  transition: all 0.25s var(--ease);
+}
+
+.pill-interactive:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(233, 30, 140, 0.15);
+}
+
+/* ============================================================
+   7. Card hover kit
+   ============================================================ */
+
+.card-interactive {
+  transition: transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+
+.card-interactive:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-2);
+}
+
+.card-interactive .card-image {
+  transition: transform .6s var(--ease);
+}
+
+.card-interactive:hover .card-image {
+  transform: scale(1.07);
+}
+
+.card-accent {
+  position: relative;
+}
+
+.card-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--tricolor);
+  z-index: 2;
+}
+
+.card-wm {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 1;
+  color: rgba(233, 30, 140, .12);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.card-wm-light {
+  color: rgba(255, 255, 255, .18);
+}
+
+/* Bento card hover effects */
+.bento-card {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.bento-card .bento-image {
+  transition: transform 0.6s var(--ease), filter 0.6s var(--ease);
+}
+
+.bento-card:hover .bento-image {
+  transform: scale(1.08);
+  filter: brightness(0.8);
+}
+
+.bento-card .bento-overlay {
+  transform: translateY(0);
+  transition: transform 0.4s var(--ease);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bento-card .bento-overlay {
+    transform: translateY(100%);
+  }
+
+  .bento-card:hover .bento-overlay {
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================
+   8. Hero: ken burns, entrance cascade, accent word, scroll cue
+   ============================================================ */
+
+@keyframes kenBurns {
+  from { transform: scale(1.05); }
+  to { transform: scale(1.15); }
+}
+
+.hero-kenburns {
+  animation: kenBurns 26s ease-in-out infinite alternate;
+  transform-origin: 60% 50%;
+  will-change: transform;
+}
+
+@keyframes heroIn {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+
+.hero-in-1 { animation: heroIn .9s var(--ease-out) both; }
+.hero-in-2 { animation: heroIn .9s var(--ease-out) .12s both; }
+.hero-in-3 { animation: heroIn .9s var(--ease-out) .24s both; }
+.hero-in-4 { animation: heroIn .9s var(--ease-out) .36s both; }
+.hero-in-5 { animation: heroIn .9s var(--ease-out) .5s both; }
+
+.accent-word {
+  color: transparent;
+  background: var(--rosa-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 42px;
+  border: 2px solid rgba(61, 35, 20, .4);
+  border-radius: 14px;
+  z-index: 10;
+}
+
+.scroll-cue span {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  width: 4px;
+  height: 8px;
+  margin-left: -2px;
+  border-radius: 2px;
+  background: var(--color-rosa-fuerte);
+  animation: cueBounce 1.6s var(--ease) infinite;
+}
+
+@keyframes cueBounce {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  60% { transform: translateY(12px); opacity: .3; }
+}
+
+/* ============================================================
+   9. Marquee ticker
+   ============================================================ */
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 16px 0;
+  background: var(--color-chocolate);
+  color: var(--color-crema);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.marquee-track {
+  display: inline-flex;
+  align-items: center;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-track span {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(19px, 2.6vw, 28px);
+  padding: 0 30px;
+}
+
+.marquee-track span::after {
+  content: '✶';
+  color: var(--color-rosa-fuerte);
+  margin-left: 30px;
+  font-size: .8em;
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* ============================================================
+   10. Scroll progress (CSS scroll-driven, no JS)
+   ============================================================ */
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  z-index: 60;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  background: var(--rosa-grad);
+  pointer-events: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: progressGrow linear both;
+    animation-timeline: scroll(root);
+  }
+
+  @keyframes progressGrow {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+}
+
+/* ============================================================
+   11. Utility animations (existing)
+   ============================================================ */
 
 /* Animated hero gradient */
 .hero-gradient {
@@ -131,58 +555,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-/* Card hover effects */
-.card-interactive {
-  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.3s ease;
-}
-
-.card-interactive:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(61, 35, 20, 0.12);
-}
-
-.card-interactive .card-image {
-  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.card-interactive:hover .card-image {
-  transform: scale(1.08);
-}
-
-/* Category pill hover */
-.pill-interactive {
-  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.pill-interactive:hover {
-  transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 8px 20px rgba(233, 30, 140, 0.15);
-}
-
-/* Nav link underline animation */
-.nav-link {
-  position: relative;
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: #E91E8C;
-  border-radius: 2px;
-  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-  transform: translateX(-50%);
-}
-
-.nav-link:hover::after,
-.nav-link-active::after {
-  width: 80%;
-}
-
 /* Shimmer text effect */
 @keyframes shimmer {
   0% { background-position: -200% center; }
@@ -213,58 +585,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .animate-image-reveal {
-  animation: image-reveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-/* Texture overlays */
-.texture-noise {
-  position: relative;
-}
-
-.texture-noise::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  opacity: 0.035;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  z-index: 1;
-}
-
-.texture-dots {
-  background-image: radial-gradient(circle, var(--color-chocolate) 1px, transparent 1px);
-  background-size: 24px 24px;
-}
-
-/* Bento card hover effects */
-.bento-card {
-  overflow: hidden;
-  border-radius: 0.5rem;
-}
-
-.bento-card .bento-image {
-  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-              filter 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.bento-card:hover .bento-image {
-  transform: scale(1.08);
-  filter: brightness(0.8);
-}
-
-.bento-card .bento-overlay {
-  transform: translateY(0);
-  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .bento-card .bento-overlay {
-    transform: translateY(100%);
-  }
-
-  .bento-card:hover .bento-overlay {
-    transform: translateY(0);
-  }
+  animation: image-reveal 0.8s var(--ease) forwards;
 }
 
 /* Scroll indicator bounce */
@@ -336,16 +657,62 @@ h1, h2, h3, h4, h5, h6 {
   animation: popup-card-out 0.35s ease-in forwards;
 }
 
-/* Reduced motion */
+/* Typing dots (AI recommender loading) */
+@keyframes typing-bounce {
+  0%, 80%, 100% { transform: translateY(0); opacity: .4; }
+  40% { transform: translateY(-6px); opacity: 1; }
+}
+
+.typing-dot {
+  animation: typing-bounce 1.1s ease-in-out infinite;
+}
+
+.typing-dot:nth-child(2) { animation-delay: .15s; }
+.typing-dot:nth-child(3) { animation-delay: .3s; }
+
+/* ============================================================
+   12. Focus + reduced motion
+   ============================================================ */
+
+*:focus-visible {
+  outline: 2px solid #E91E8C;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .animate-float,
-  .animate-fade-up,
-  .animate-bounce-in,
-  .animate-scroll-bounce,
-  .animate-draw-line { animation: none !important; }
-  .hero-gradient { animation: none !important; }
-  .text-shimmer { animation: none !important; -webkit-text-fill-color: var(--color-rosa-fuerte); }
-  .card-interactive:hover { transform: none; }
-  .bento-card .bento-image { transition: none; }
-  .bento-card .bento-overlay { transition: none; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-kenburns {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .scroll-cue {
+    display: none;
+  }
+
+  .text-shimmer {
+    animation: none !important;
+    -webkit-text-fill-color: var(--color-rosa-fuerte);
+  }
+
+  .card-interactive:hover {
+    transform: none;
+  }
 }

@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ScrollReveal from "./ScrollReveal";
+import SectionHead from "./SectionHead";
 
 export default function OriginStory() {
   const t = useTranslations("origin");
@@ -12,7 +13,7 @@ export default function OriginStory() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-chocolate-dark texture-noise">
+    <section className="relative overflow-hidden bg-chocolate-dark">
       {/* Background atmospheric image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -27,19 +28,15 @@ export default function OriginStory() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 py-20 md:py-28 text-center">
         <ScrollReveal animation="fade-up">
-          <p className="font-body text-dorado text-sm tracking-[0.2em] uppercase mb-4">
-            Rancholados
-          </p>
-        </ScrollReveal>
-        <ScrollReveal animation="fade-up" delay={100}>
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-extrabold text-crema leading-tight mb-6">
-            {t("headline")}
-          </h2>
-        </ScrollReveal>
-        <ScrollReveal animation="fade-up" delay={200}>
-          <p className="font-body text-lg text-crema/60 max-w-2xl mx-auto mb-12">
-            {t("description")}
-          </p>
+          <SectionHead
+            num="02"
+            align="center"
+            tone="light"
+            eyebrow="Rancholados"
+            title={t("headline")}
+            lead={t("description")}
+            className="mb-12"
+          />
         </ScrollReveal>
 
         {/* Stat badges */}

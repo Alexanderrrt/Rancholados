@@ -17,7 +17,39 @@
     "title": "Nuestro Menú",
     "subtitle": "Un capricho refrescante a tu antojo",
     "orderWhatsApp": "Pedir",
-    "viewFull": "Ver Menú Completo"
+    "viewFull": "Ver Menú Completo",
+    "antojoBanner": "¿No sabes qué pedir? Deja que la IA escoja por ti"
+  },
+  "recommend": {
+    "eyebrow": "Recomendador con IA",
+    "title": "¿Qué se me antoja?",
+    "intro": "Cuéntanos cómo te sientes y te decimos exactamente qué pedir. Tres toques y listo.",
+    "moodLabel": "¿Cómo estás hoy?",
+    "cravingLabel": "¿Qué se te antoja?",
+    "weatherLabel": "¿Cómo está el clima?",
+    "antojoLabel": "¿Algo más se te antoja? (opcional)",
+    "antojoPlaceholder": "Ej: algo con mango, sin lácteos...",
+    "submit": "Dime qué pedir",
+    "loading": "Pensando en tu antojo...",
+    "resultTitle": "Tu antojo perfecto",
+    "altPrefix": "O prueba:",
+    "orderCta": "Pedir por WhatsApp",
+    "tryAgain": "Probar otra vez",
+    "errorRetry": "Algo salió mal. Inténtalo de nuevo.",
+    "fallbackPitch": "Con lo que nos contaste, este es el indicado. Fruta fresca, sabor de Cali y cero arrepentimientos.",
+    "options": {
+      "contento": "Contento",
+      "nostalgico": "Nostálgico",
+      "aventurero": "Aventurero",
+      "relajado": "Relajado",
+      "frio": "Algo frío",
+      "cremoso": "Algo cremoso",
+      "fruta": "Pura fruta",
+      "dulce": "Algo dulce",
+      "weather-calor": "Hace calor",
+      "weather-fresco": "Está fresco",
+      "weather-frio": "Hace frío"
+    }
   },
   "about": {
     "title": "Nuestra Historia",

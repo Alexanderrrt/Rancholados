@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import ScrollReveal from "./ScrollReveal";
+import SectionHead from "./SectionHead";
 
 export default function ProcessStrip() {
   const t = useTranslations("process");
@@ -33,14 +34,13 @@ export default function ProcessStrip() {
 
       <div ref={ref} className="relative z-10 max-w-5xl mx-auto px-4 py-20 md:py-28">
         <ScrollReveal animation="fade-up">
-          <div className="text-center mb-16">
-            <p className="font-body text-dorado text-sm tracking-[0.2em] uppercase mb-3">
-              {t("subtitle")}
-            </p>
-            <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-chocolate">
-              {t("title")}
-            </h2>
-          </div>
+          <SectionHead
+            num="03"
+            align="center"
+            eyebrow={t("subtitle")}
+            title={t("title")}
+            className="mb-16"
+          />
         </ScrollReveal>
 
         {/* Steps - horizontal on desktop, vertical on mobile */}

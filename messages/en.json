@@ -17,7 +17,39 @@
     "title": "Our Menu",
     "subtitle": "A refreshing treat, just the way you crave it",
     "orderWhatsApp": "Order",
-    "viewFull": "View Full Menu"
+    "viewFull": "View Full Menu",
+    "antojoBanner": "Not sure what to order? Let AI pick for you"
+  },
+  "recommend": {
+    "eyebrow": "AI Recommender",
+    "title": "What am I craving?",
+    "intro": "Tell us how you're feeling and we'll tell you exactly what to order. Three taps and done.",
+    "moodLabel": "How are you today?",
+    "cravingLabel": "What are you craving?",
+    "weatherLabel": "How's the weather?",
+    "antojoLabel": "Anything else you're craving? (optional)",
+    "antojoPlaceholder": "E.g.: something with mango, dairy-free...",
+    "submit": "Tell me what to order",
+    "loading": "Thinking about your craving...",
+    "resultTitle": "Your perfect match",
+    "altPrefix": "Or try:",
+    "orderCta": "Order on WhatsApp",
+    "tryAgain": "Try again",
+    "errorRetry": "Something went wrong. Please try again.",
+    "fallbackPitch": "Based on what you told us, this is the one. Fresh fruit, Cali flavor, zero regrets.",
+    "options": {
+      "contento": "Happy",
+      "nostalgico": "Nostalgic",
+      "aventurero": "Adventurous",
+      "relajado": "Relaxed",
+      "frio": "Something cold",
+      "cremoso": "Something creamy",
+      "fruta": "All fruit",
+      "dulce": "Something sweet",
+      "weather-calor": "It's hot out",
+      "weather-fresco": "It's mild",
+      "weather-frio": "It's cold out"
+    }
   },
   "about": {
     "title": "Our Story",
