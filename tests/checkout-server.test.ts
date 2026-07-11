@@ -2,20 +2,11 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   calculateAmounts,
   signCheckoutToken,
-  validateAddress,
   validateCart,
   validateCustomer,
   verifyCheckoutToken,
 } from "@/lib/checkout-server";
 
-const address = {
-  street1: "123 Market St",
-  street2: "Apt 4",
-  city: "San Jose",
-  state: "CA",
-  postalCode: "95113",
-  country: "US" as const,
-};
 const customer = {
   firstName: "Ana",
   lastName: "Gomez",
@@ -28,7 +19,7 @@ beforeEach(() => {
   vi.stubEnv("CHECKOUT_TAX_RATE_BPS", "900");
 });
 
-describe("checkout validation and signing", () => {
+describe("pickup checkout validation and signing", () => {
   it("uses authoritative menu prices and rejects invalid quantities", () => {
     const lines = validateCart([{ itemId: "cholado-sencillo", quantity: 2 }]);
     expect(lines).toEqual([
@@ -38,27 +29,18 @@ describe("checkout validation and signing", () => {
     expect(validateCart([{ itemId: "not-on-menu", quantity: 1 }])).toBeNull();
   });
 
-  it("requires a complete US address and valid contact", () => {
-    expect(validateAddress(address)).toEqual(address);
-    expect(validateAddress({ ...address, postalCode: "bad" })).toBeNull();
+  it("requires valid pickup contact details", () => {
     expect(validateCustomer(customer)).toEqual(customer);
     expect(validateCustomer({ ...customer, email: "bad" })).toBeNull();
   });
 
-  it("signs quote totals and rejects tampering", () => {
+  it("signs pickup totals and rejects tampering", () => {
     const lines = validateCart([{ itemId: "cholado-sencillo", quantity: 2 }])!;
-    const amounts = calculateAmounts(lines, 799);
-    expect(amounts).toEqual({
-      subtotalCents: 3200,
-      taxCents: 288,
-      deliveryFeeCents: 799,
-      totalCents: 4287,
-    });
+    const amounts = calculateAmounts(lines);
+    expect(amounts).toEqual({ subtotalCents: 3200, taxCents: 288, totalCents: 3488 });
     const token = signCheckoutToken({
       ...amounts,
-      quoteId: "dqt_test",
       expiresAt: Date.now() + 60_000,
-      address,
       customer,
       lines: [{ itemId: "cholado-sencillo", quantity: 2 }],
     });
